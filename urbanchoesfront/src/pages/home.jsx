@@ -86,13 +86,50 @@ export default function Home() {
         background: "#f8fafc",
       }}
     >
-      {/* topbar parte de arriba */}
-      <div className="w-full bg-[var(--brand)] text-white text-sm sm:text-base md:text-lg font-medium">
-        <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
-          <p>🚚 ENVÍOS A TODA COLOMBIA</p>
-          <p>⚡ PLATAFORMA VERIFICADA — 💳 PAGO CONTRAENTREGA</p>
-        </div>
+      {/* TOPBAR responsive */}
+{/* TOPBAR con emojis llamativos y responsive */}
+<div className="w-full bg-[var(--brand)] text-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-3">
+    <div className="flex flex-col items-center justify-center gap-2 text-[11px] sm:flex-row sm:gap-4 sm:text-sm">
+      
+      {/* ITEM 1 */}
+      <div className="flex items-center gap-2">
+        <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+          🚚
+        </span>
+        <span className="tracking-wide">
+          <b>Envíos</b> a <b>toda Colombia</b>
+        </span>
+        <span aria-hidden className="hidden sm:inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+          🇨🇴
+        </span>
       </div>
+
+      {/* separador en pantallas medianas+ */}
+      <span className="hidden sm:inline text-white/40">•</span>
+
+      {/* ITEM 2 */}
+      <div className="flex items-center gap-2">
+        <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+          ⚡
+        </span>
+        <span className="tracking-wide">
+          <b>Plataforma verificada</b>
+        </span>
+        <span className="hidden sm:inline text-white/40">—</span>
+        <span className="flex items-center gap-2">
+          <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+            💳
+          </span>
+          <span className="tracking-wide"><b>Pago contraentrega</b></span>
+        </span>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
       {/* header */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b">
