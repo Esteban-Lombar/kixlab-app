@@ -1,0 +1,28 @@
+﻿# --- Node/Vite/Build ---
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# --- Editor/OS ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Env / credenciales ---
+.env
+.env.*
+!.env.example
+
+# --- Front ---
+urbanchoesfront/node_modules/
+urbanchoesfront/dist/
+urbanchoesfront/.env
+
+# --- Back (ajusta si cambian rutas de build) ---
+urbanchoesback/node_modules/
+urbanchoesback/dist/
+urbanchoesback/.env
