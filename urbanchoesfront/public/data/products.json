@@ -11,17 +11,33 @@
     "id": "nike-sunder-amarillo-blanco",
     "name": "NIKE SUNNDER",
     "price": 110000,
-    "tag": "Premium",
+    "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "NIKE SUNNDER"],
     "img": "/products/nikesunnder-amarillo-blanco.jpeg"
   },
   {
-    "id": "urban-street-classic",
-    "name": "Urban Street Classic",
-    "price": 249000,
-    "tag": "Novedad",
+    "id": "nike-sunder-blanco-rojo",
+    "name": "NIKE SUNNDER",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "NIKE SUNNDER"],
+    "img": "/products/nikesunnder-blanco-rojo.jpeg"
+  },
+  {
+    "id": "puma-fenty-negro-blanco",
+    "name": "PUMA FENTY",
+    "price": 136000,
+    "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas"],
-    "img": "urban-street-classic.jpg"
+    "img": "/products/pumafenty-negro-blanco.jpeg"
+  },
+  {
+    "id": "jordan-retro-3-blanco",
+    "name": "JORDAN RETRO 3",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas"],
+    "img": "/products/jordanretro3-blanco.jpeg"
   }
   
 ]
