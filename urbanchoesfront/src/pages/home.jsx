@@ -1,3 +1,4 @@
+// src/pages/home.jsx
 import React, { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -86,58 +87,48 @@ export default function Home() {
         background: "#f8fafc",
       }}
     >
-      {/* TOPBAR responsive */}
-{/* TOPBAR con emojis llamativos y responsive */}
-<div className="w-full bg-[var(--brand)] text-white">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-3">
-    <div className="flex flex-col items-center justify-center gap-2 text-[11px] sm:flex-row sm:gap-4 sm:text-sm">
-      
-      {/* ITEM 1 */}
-      <div className="flex items-center gap-2">
-        <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
-          🚚
-        </span>
-        <span className="tracking-wide">
-          <b>Envíos</b> a <b>toda Colombia</b>
-        </span>
-        <span aria-hidden className="hidden sm:inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
-          🇨🇴
-        </span>
+      {/* TOPBAR */}
+      <div className="w-full bg-[var(--brand)] text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 sm:py-3">
+          <div className="flex flex-col items-center justify-center gap-2 text-[11px] sm:flex-row sm:gap-4 sm:text-sm">
+            <div className="flex items-center gap-2">
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+                🚚
+              </span>
+              <span className="tracking-wide">
+                <b>Envíos</b> a <b>toda Colombia</b>
+              </span>
+              <span className="hidden sm:inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+                🇨🇴
+              </span>
+            </div>
+            <span className="hidden sm:inline text-white/40">•</span>
+            <div className="flex items-center gap-2">
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+                ⚡
+              </span>
+              <span className="tracking-wide">
+                <b>Plataforma verificada</b>
+              </span>
+              <span className="hidden sm:inline text-white/40">—</span>
+              <span className="flex items-center gap-2">
+                <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
+                  💳
+                </span>
+                <span className="tracking-wide">
+                  <b>Pago contraentrega</b>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* separador en pantallas medianas+ */}
-      <span className="hidden sm:inline text-white/40">•</span>
-
-      {/* ITEM 2 */}
-      <div className="flex items-center gap-2">
-        <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
-          ⚡
-        </span>
-        <span className="tracking-wide">
-          <b>Plataforma verificada</b>
-        </span>
-        <span className="hidden sm:inline text-white/40">—</span>
-        <span className="flex items-center gap-2">
-          <span aria-hidden className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">
-            💳
-          </span>
-          <span className="tracking-wide"><b>Pago contraentrega</b></span>
-        </span>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-
-
-      {/* header */}
+      {/* HEADER */}
       <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center gap-4">
-          {/* Logo + Marca */}
           <div className="flex items-center gap-3">
             <div className="h-9 w-9 rounded-xl bg-[var(--brand)] grid place-items-center overflow-hidden">
-              {/* Logo servido desde /public */}
               <img
                 src="/LOGO MARCA INSTAGRAM.png"
                 alt="URBANSHOES"
@@ -147,14 +138,11 @@ export default function Home() {
             <div className="leading-tight">
               <div className="text-xl font-black tracking-tight">URBANSHOES</div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-neutral-500">
-                CALI - COLOMBIA
+                CALI — COLOMBIA
               </div>
             </div>
           </div>
 
-          {/* (Menú de categorías del header removido; se mantiene abajo) */}
-
-          {/* search */}
           <div className="ml-auto flex-1 max-w-md">
             <label className="relative block">
               <input
@@ -163,32 +151,43 @@ export default function Home() {
                 placeholder="Buscar zapatillas..."
                 className="w-full rounded-2xl border px-4 py-2 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-[var(--accent)]"
               />
-              <span className="absolute right-3 top-1/2 -translate-y-1/2 opacity-60">🔎</span>
+              <span className="absolute right-3 top-1/2 -translate-y-1/2 opacity-60">
+                🔎
+              </span>
             </label>
           </div>
 
-          {/* cta */}
           <button className="hidden sm:inline-flex ml-4 px-4 py-2 rounded-2xl font-medium text-white bg-[var(--accent)] hover:opacity-90">
             Ver catálogo
           </button>
         </div>
       </header>
 
-      {/* hero */}
+      {/* HERO */}
       <section className="relative">
         <div className="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8 items-center">
+          {/* Texto */}
           <div>
             <div className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-[var(--accent)] font-semibold">
-              <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]"></span> Nueva temporada
+              <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]"></span>
+              Nueva temporada
             </div>
+
             <h1 className="mt-3 text-4xl md:text-5xl font-black leading-tight">
               Zapatillas urbanas y deportivas{" "}
               <span className="text-[var(--accent)]">al mejor estilo</span>
             </h1>
+
+            {/* PROMO texto corto */}
             <p className="mt-4 text-neutral-600 max-w-prose">
-              Catálogo curado con modelos <strong>New Balance 9060 / 1906R</strong> y selecciones
-              urbanas. Calidad <em>1.1 Premium</em>, envío rápido y soporte directo.
+              <span className="mr-1">🔥</span>
+              <b>Promos de hoy: 10% OFF</b> en pares seleccionados ·{" "}
+              <b>Envío gratis</b> desde $199.000. Stock limitado.
             </p>
+            <p className="mt-1 text-xs text-neutral-500">
+              (Agrega los modelos en promo en el arreglo promos arriba)
+            </p>
+
             <div className="mt-6 flex flex-wrap gap-3">
               <button className="px-5 py-3 rounded-2xl font-semibold text-white bg-[var(--brand)] hover:opacity-90">
                 Comprar ahora
@@ -197,30 +196,48 @@ export default function Home() {
                 Ver novedades
               </button>
             </div>
+
+            {/* Beneficios */}
             <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-500">
-              <span>✔️ Garantía 30 días</span>
+              <span>✔️ Garantía</span>
               <span>✔️ Pago seguro</span>
               <span>✔️ Soporte por WhatsApp</span>
             </div>
           </div>
 
+          {/* PROMO imagen (contenedor corregido) */}
           <div className="relative">
-            <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-xl border bg-white">
-              <img
-                src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=1600&auto=format&fit=crop"
-                alt="Hero URBANSHOES"
-                className="h-full w-full object-cover"
-                loading="lazy"
-              />
+            <div
+              className="
+                w-full mx-auto
+                max-w-md sm:max-w-lg lg:max-w-xl
+                rounded-3xl overflow-hidden bg-white
+                p-0.5 sm:p-1
+                shadow-[0_6px_24px_rgba(0,0,0,0.08)]
+                ring-1 ring-black/5
+                border border-neutral-200
+              "
+            >
+              <div className="w-full h-72 sm:h-80 md:h-96 lg:h-[420px]">
+                <img
+                  src="/promo-semanal-1.png"
+                  alt="Oferta semanal URBANSHOES"
+                  className="w-full h-full object-contain block"
+                  loading="eager"
+                  fetchPriority="high"
+                  sizes="(max-width:640px) 85vw, (max-width:1024px) 50vw, 640px"
+                />
+              </div>
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-white px-4 py-3 rounded-2xl shadow border text-sm">
+
+            <div className="absolute -bottom-3 -right-3 bg-white px-3 py-2 rounded-xl shadow border border-neutral-200 text-xs sm:text-sm">
               <strong>URBANSHOES</strong> — edición limitada
             </div>
           </div>
         </div>
       </section>
 
-      {/* filtros rápidos */}
+      {/* Filtros rápidos */}
       <section className="border-y bg-white/70">
         <div className="max-w-7xl mx-auto px-4 py-4 flex gap-2 overflow-x-auto">
           {categories.map((c) => (
@@ -239,7 +256,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* grid de productos */}
+      {/* Grid de productos */}
       <main className="max-w-7xl mx-auto px-4 py-10">
         <div className="flex items-end justify-between gap-4 mb-6">
           <h2 className="text-2xl md:text-3xl font-black">Productos</h2>
@@ -285,12 +302,13 @@ export default function Home() {
           ))}
         </div>
 
-        {/* callouts */}
+        {/* Callouts */}
         <div className="mt-10 grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl p-6 bg-gradient-to-br from-[var(--brand)] to-[#1f1f1f] text-white">
             <h3 className="text-2xl font-black">Colección 9060</h3>
             <p className="mt-2 text-sm opacity-90 max-w-prose">
-              Silueta icónica con acabados premium. Descubre colores limitados y stock fresco.
+              Silueta icónica con acabados premium. Descubre colores limitados y
+              stock fresco.
             </p>
             <button className="mt-4 px-4 py-2 rounded-xl bg-white text-[var(--brand)] font-semibold hover:opacity-90">
               Ver colección
@@ -307,16 +325,16 @@ export default function Home() {
         </div>
       </main>
 
-      {/* footer */}
+      {/* FOOTER */}
       <footer className="mt-10 border-t">
         <div className="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm">
           <div>
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-lg bg-[var(--brand)] grid place-items-center overflow-hidden">
                 <img
-                   src="/LOGO MARCA INSTAGRAM.png"
-                   alt="URBANSHOES"
-                   className="h-full w-full object-cover"
+                  src="/LOGO MARCA INSTAGRAM.png"
+                  alt="URBANSHOES"
+                  className="h-full w-full object-cover"
                 />
               </div>
               <span className="font-black">URBANSHOES</span>
@@ -360,11 +378,12 @@ export default function Home() {
           </div>
         </div>
         <div className="border-t py-4 text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} URBANSHOES — Todos los derechos reservados.
+          © {new Date().getFullYear()} URBANSHOES — Todos los derechos
+          reservados.
         </div>
       </footer>
 
-      {/* botón flotante “admin” (discreto) */}
+      {/* Botón admin */}
       <Link
         to="/login"
         aria-label="acceso administrador"
