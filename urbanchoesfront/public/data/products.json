@@ -126,6 +126,142 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/adidasbounce-negro-blanco-caballero.jpeg"
+  },
+  {
+    "id": "adidassamba-blanco-negro-caballero",
+    "name": "ADIDAS SAMBA",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Caballero"],
+    "img": "/products/adidassamba-blanco-negro-caballero.jpeg"
+  },
+  {
+    "id": "reebokbeams-cafes-blanco-caballero",
+    "name": "REEBOK BEAMS",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Casual", "Caballero"],
+    "img": "/products/reebokbeams-cafes-blanco-caballero.jpeg"
+  },
+  {
+    "id": "adidassuperstar-blancas-multicolor-dama",
+    "name": "ADIDAS SUPER STAR",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Casual", "Dama", "Urbanas"],
+    "img": "/products/adidassuperstar-blancas-multicolor-dama.jpeg"
+  },
+  {
+    "id": "adidassamba-blanco-cafe-dama",
+    "name": "ADIDAS SAMBA",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Casual", "Dama", "Urbanas"],
+    "img": "/products/adidassamba-blanco-cafe-dama.jpeg"
+  },
+  {
+    "id": "adidaslego-negra-blanco-rojo",
+    "name": "ADIDAS LEGO",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Casual", "Dama", "Caballero", "Urbanas"],
+    "img": "/products/adidaslego-negra-blanco-rojo.jpeg"
+  },
+  {
+    "id": "nikezoomx-blanco-amarillo",
+    "name": "NIKE ZOOM X ",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Dama", "Caballero"],
+    "img": "/products/nikezoomx-blanco-amarillo.jpeg"
+  },
+  {
+    "id": "adidasgalaxy-pastel-multicolor",
+    "name": "ADIDAS GALAXY ",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Dama"],
+    "img": "/products/adidasgalaxy-pastel-multicolor.jpeg"
+  },
+  {
+    "id": "adidasgalaxy-blanco-rosado",
+    "name": "ADIDAS GALAXY ",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Dama"],
+    "img": "/products/adidasgalasy-blanco-rosado.jpeg"
+  },
+  {
+    "id": "nikeblazer-blanco-rosado",
+    "name": "NIKE BLAZER",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Dama"],
+    "img": "/products/nikeblazer-blanco-rosado.jpeg"
+  },
+  {
+    "id": "adidaslego-negro-gris-caballero",
+    "name": "ADIDAS LEGO",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+    "img": "/products/adidaslego-negro-gris-caballero.jpeg"
+  },
+  {
+    "id": "adidaslego-negro-blanco",
+    "name": "ADIDAS LEGO",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+    "img": "/products/adidaslego-negro-blanco.jpeg"
+  },
+  {
+    "id": "adidaslego-negro",
+    "name": "ADIDAS LEGO",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+    "img": "/products/adidaslego-negro.jpeg"
+  },
+  {
+    "id": "nikeaf1-blanco-rojo-negro",
+    "name": "NIKE AF1",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+    "img": "/products/nikeaf1-blanco-rojo-negro.jpeg"
+  },
+  {
+    "id": "nikecomant-azules",
+    "name": "NIKE COMANT",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
+    "img": "/products/nikecomant-azules.jpeg"
+  },
+  {
+    "id": "nikeairmax90-negro",
+    "name": "NIKE AIR MAX 90",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Casual"],
+    "img": "/products/nikeairmax90-negro.jpeg"
+  },
+  {
+    "id": "niketndrift-blancas-torna",
+    "name": "NIKE TN DRIFT",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero"],
+    "img": "/products/niketndrift-blancas-torna.jpeg"
+  },
+  {
+    "id": "nikedunk-blanco-azul",
+    "name": "NIKE DUNK",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual","Caballero"],
+    "img": "/products/nikedunk-blanco-azul.jpeg"
   }
   
 ]
