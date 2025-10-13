@@ -174,14 +174,14 @@ export default function Home() {
             </div>
 
             <h1 className="mt-3 text-4xl md:text-5xl font-black leading-tight">
-              Zapatillas urbanas y deportivas{" "}
-              <span className="text-[var(--accent)]">al mejor estilo</span>
+              PROMOS SEMANALES{" "}
+              <span className="text-[var(--accent)]">AL MEJORES ESTILO</span>
             </h1>
 
             {/* PROMO texto corto */}
             <p className="mt-4 text-neutral-1500 max-w-prose">
               <span className="mr-1">🔥</span>
-              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000). ·{" "}
+              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000) ·{" "}
               <b>contraentrega y envío nacional. Stock limitado. </b>
             </p>
             <p className="mt-1 text-xs text-neutral-500">
