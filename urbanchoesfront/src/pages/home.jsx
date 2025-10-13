@@ -179,10 +179,10 @@ export default function Home() {
             </h1>
 
             {/* PROMO texto corto */}
-            <p className="mt-4 text-neutral-600 max-w-prose">
+            <p className="mt-4 text-neutral-1500 max-w-prose">
               <span className="mr-1">🔥</span>
-              <b>Promos de hoy: 10% OFF</b> en pares seleccionados ·{" "}
-              <b>Envío gratis</b> desde $199.000. Stock limitado.
+              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000). ·{" "}
+              <b>contraentrega y envío nacional. Stock limitado. </b>
             </p>
             <p className="mt-1 text-xs text-neutral-500">
               (Agrega los modelos en promo en el arreglo promos arriba)
@@ -198,7 +198,7 @@ export default function Home() {
             </div>
 
             {/* Beneficios */}
-            <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-500">
+            <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-1500">
               <span>✔️ Garantía</span>
               <span>✔️ Pago seguro</span>
               <span>✔️ Soporte por WhatsApp</span>
