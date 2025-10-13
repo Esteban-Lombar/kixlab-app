@@ -1,19 +1,19 @@
 [
   {
-    "id": "nb-9060-black",
+    "id": "nike-sunder-blancas-rosado",
     "name": "NIKE SUNNDER",
-    "price": 389000,
+    "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Urbanas", "New Balance 9060"],
-    "img": "/products/nikesunnder.jpeg"
+    "category": ["Deportivas","Running", "NIKE SUNNDER"],
+    "img": "/products/nikesunnder-blanco-rosa.jpeg"
   },
   {
-    "id": "nb-1906r-cream",
-    "name": "New Balance 1906R Cream",
-    "price": 419000,
+    "id": "nike-sunder-amarillo-blanco",
+    "name": "NIKE SUNNDER",
+    "price": 110000,
     "tag": "Premium",
-    "category": ["Deportivas", "Running", "New Balance 1906R"],
-    "img": "nb-1906r-cream.jpg"
+    "category": ["Deportivas", "Running", "NIKE SUNNDER"],
+    "img": "/products/nikesunnder-amarillo-blanco.jpeg"
   },
   {
     "id": "urban-street-classic",
