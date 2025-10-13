@@ -175,7 +175,7 @@ export default function Home() {
 
             <h1 className="mt-3 text-4xl md:text-5xl font-black leading-tight">
               PROMOS SEMANALES{" "}
-              <span className="text-[var(--accent)]">AL MEJORE ESTILO</span>
+              <span className="text-[var(--accent)]">AL MEJOR ESTILO</span>
             </h1>
 
             {/* PROMO texto corto */}
