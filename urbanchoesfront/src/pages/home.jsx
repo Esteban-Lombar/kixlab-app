@@ -20,8 +20,8 @@ export default function Home() {
     "Deportivas",
     "Running",
     "Casual",
-    "New Balance 9060",
-    "New Balance 1906R",
+    "Dama",
+    "Caballero",
   ];
 
   // ✅ Carga robusta del JSON desde /public (funciona en local y Vercel)

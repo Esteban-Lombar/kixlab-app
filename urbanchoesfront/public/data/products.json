@@ -4,7 +4,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas","Running"],
+    "category": ["Deportivas","Running", "Caballero"],
     "img": "/products/nikesunnder-blanco-rosa.jpeg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikesunnder-amarillo-blanco.jpeg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikesunnder-blanco-rojo.jpeg"
   },
   {
@@ -28,7 +28,7 @@
     "name": "PUMA FENTY",
     "price": 136000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Urbanas"],
+    "category": ["Urbanas", "Casual", "Dama"],
     "img": "/products/pumafenty-negro-blanco.jpeg"
   },
   {
@@ -36,7 +36,7 @@
     "name": "JORDAN RETRO 3",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Urbanas"],
+    "category": ["Urbanas", "Casual", "Dama"],
     "img": "/products/jordanretro3-blanco.jpeg"
   },
   {
@@ -44,7 +44,7 @@
     "name": "NIKE SHOCK",
     "price": 208000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikeshock-negro-rojo.jpeg"
   },
   {
@@ -52,7 +52,7 @@
     "name": "NIKE SHOCK",
     "price": 208000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikeshock-blanco-plateado.jpeg"
   },
   {
@@ -60,7 +60,7 @@
     "name": "NIKE SHOCK",
     "price": 208000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikeshock-negro-plateado-rojo.jpeg"
   },
   {
@@ -68,7 +68,7 @@
     "name": "NIKE SHOCK",
     "price": 208000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikeshock-negro.jpeg"
   },
   {
@@ -76,8 +76,56 @@
     "name": "NIKE SHOCK",
     "price": 208000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running"],
+    "category": ["Deportivas", "Running", "Caballero"],
     "img": "/products/nikeshock-blanco-plateado-rojo.jpeg"
+  },
+  {
+    "id": "alexandermcqueen-blanco-negro",
+    "name": "ALEXANDER MCQUEEN",
+    "price": 180000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero", "Dama"],
+    "img": "/products/alexandermcqueen-blancas-negro.jpeg"
+  },
+  {
+    "id": "alexandermcqueen-negro-blanco",
+    "name": "ALEXANDER MCQUEEN",
+    "price": 180000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero", "Dama"],
+    "img": "/products/alexandermcqueen-negro-blanco.jpeg"
+  },
+  {
+    "id": "adidasbounce-blanco-azul",
+    "name": "ADIDAS BOUNCE",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Dama"],
+    "img": "/products/adidasbounce-blanco-azul-dama.jpeg"
+  },
+  {
+    "id": "adidasbounce-blanco-rosa-azul-dama",
+    "name": "ADIDAS BOUNCE",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Dama"],
+    "img": "/products/adidasbounce-blanco-rosa-azul-dama.jpeg"
+  },
+  {
+    "id": "nikezoomx-negro-blanco-dama-caballero",
+    "name": "NIKE ZOOM X",
+    "price": 200000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Dama", "Caballero"],
+    "img": "/products/nikezoomx-negro-blanco-dama-caballero.jpeg"
+  },
+  {
+    "id": "adidasbounce-negro-blanco-caballero",
+    "name": "ADIDAS BOUNCE",
+    "price": 200000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+    "img": "/products/adidasbounce-negro-blanco-caballero.jpeg"
   }
   
 ]
