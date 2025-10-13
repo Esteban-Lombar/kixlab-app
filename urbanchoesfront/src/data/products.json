@@ -1,0 +1,27 @@
+[
+  {
+    "id": "nb-9060-black",
+    "name": "NIKE SUNNDER",
+    "price": 389000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "New Balance 9060"],
+    "img": "NIKE SUNNDER.jpeg"
+  },
+  {
+    "id": "nb-1906r-cream",
+    "name": "New Balance 1906R Cream",
+    "price": 419000,
+    "tag": "Premium",
+    "category": ["Deportivas", "Running", "New Balance 1906R"],
+    "img": "nb-1906r-cream.jpg"
+  },
+  {
+    "id": "urban-street-classic",
+    "name": "Urban Street Classic",
+    "price": 249000,
+    "tag": "Novedad",
+    "category": ["Urbanas"],
+    "img": "urban-street-classic.jpg"
+  }
+  
+]
