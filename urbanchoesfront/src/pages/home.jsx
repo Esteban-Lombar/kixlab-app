@@ -1,19 +1,19 @@
-// src/pages/home.jsx
 import React, { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-
-const PAGE_SIZE = 12;
 
 export default function Home() {
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState("Todos");
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-  // Carga remota desde JSON
-  const [allProducts, setAllProducts] = useState([]);
-  const [loadingList, setLoadingList] = useState(true);
-  const [page, setPage] = useState(1);
+  // Carrusel promo (no tocar UX)
+  const promoImages = ["/products/promo-semanal-1.png"];
+  const [slide, setSlide] = useState(0);
+  const next = () => setSlide((s) => (s + 1) % promoImages.length);
+  const prev = () => setSlide((s) => (s - 1 + promoImages.length) % promoImages.length);
 
-  // Tus categorías (puedes sumar más si las usas en el JSON)
   const categories = [
     "Todos",
     "Urbanas",
@@ -24,40 +24,53 @@ export default function Home() {
     "New Balance 1906R",
   ];
 
+  // ✅ Carga robusta del JSON desde /public (funciona en local y Vercel)
   useEffect(() => {
     let alive = true;
-    (async () => {
-      try {
-        setLoadingList(true);
-        const res = await fetch("/src/data/products.json");
-        const data = await res.json();
-        if (!alive) return;
-        setAllProducts(Array.isArray(data) ? data : []);
-      } catch (e) {
-        console.error("Error cargando products.json", e);
-        setAllProducts([]);
-      } finally {
-        if (alive) setLoadingList(false);
-      }
-    })();
-    return () => { alive = false; };
+    setLoading(true);
+    setError("");
+
+    fetch("/data/products.json", { cache: "no-store" })
+      .then(async (r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        const data = await r.json();
+
+        // Normalizo rutas de imagen por si alguna viene sin prefijo "/products/"
+        const norm = (data || []).map((p) => {
+          let img = p.img || "";
+          if (
+            img &&
+            !img.startsWith("http") &&
+            !img.startsWith("/") &&
+            !img.startsWith("./")
+          ) {
+            img = `/products/${img}`;
+          }
+          return { ...p, img };
+        });
+
+        if (alive) setProducts(norm);
+      })
+      .catch((e) => {
+        console.error("Error cargando products.json:", e);
+        if (alive) setError("No pudimos cargar el catálogo. Revisa /public/data/products.json");
+      })
+      .finally(() => alive && setLoading(false));
+
+    return () => {
+      alive = false;
+    };
   }, []);
 
-  // Filtros
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return allProducts.filter((p) => {
-      const matchCat = category === "Todos" || p.category?.includes(category);
-      const matchQ = !q || p.name.toLowerCase().includes(q);
+    return products.filter((p) => {
+      const matchCat = category === "Todos" || (p.category || []).includes(category);
+      const matchQ = !q || (p.name || "").toLowerCase().includes(q);
       return matchCat && matchQ;
     });
-  }, [allProducts, category, query]);
+  }, [category, query, products]);
 
-  // Paginación
-  const visible = useMemo(() => filtered.slice(0, page * PAGE_SIZE), [filtered, page]);
-  const canLoadMore = visible.length < filtered.length;
-
-  // ====== UI ======
   return (
     <div
       className="min-h-screen"
@@ -75,10 +88,14 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center gap-2 text-[11px] sm:flex-row sm:gap-4 sm:text-sm">
             <div className="flex items-center gap-2">
               <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">🚚</span>
-              <span className="tracking-wide"><b>Envíos</b> a <b>toda Colombia</b></span>
+              <span className="tracking-wide">
+                <b>Envíos</b> a <b>toda Colombia</b>
+              </span>
               <span className="hidden sm:inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">🇨🇴</span>
             </div>
+
             <span className="hidden sm:inline text-white/40">•</span>
+
             <div className="flex items-center gap-2">
               <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/10">⚡</span>
               <span className="tracking-wide"><b>Plataforma verificada</b></span>
@@ -109,7 +126,7 @@ export default function Home() {
             <label className="relative block">
               <input
                 value={query}
-                onChange={(e) => { setQuery(e.target.value); setPage(1); }}
+                onChange={(e) => setQuery(e.target.value)}
                 placeholder="Buscar zapatillas..."
                 className="w-full rounded-2xl border px-4 py-2 pr-10 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--accent)] focus:border-[var(--accent)]"
               />
@@ -123,10 +140,10 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ====== HERO (tu promo/carrusel lo dejo SIN CAMBIOS) ====== */}
+      {/* HERO */}
       <section className="relative">
         <div className="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-8 items-center">
-          {/* Texto izquierda */}
+          {/* Texto */}
           <div>
             <div className="inline-flex items-center gap-2 text-[11px] uppercase tracking-widest text-[var(--accent)] font-semibold">
               <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]"></span>
@@ -137,13 +154,14 @@ export default function Home() {
               PROMOS SEMANALES <span className="text-[var(--accent)]">AL MEJOR ESTILO</span>
             </h1>
 
-            <p className="mt-4 text-neutral-800 max-w-prose">
+            {/* PROMO texto corto */}
+            <p className="mt-4 text-neutral-900 max-w-prose">
               <span className="mr-1">🔥</span>
-              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000) ·
-              <b> contraentrega y envío nacional.</b> Stock limitado.
+              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000) ·{" "}
+              <b>contraentrega y envío nacional. Stock limitado.</b>
             </p>
             <p className="mt-1 text-xs text-neutral-500">
-              (Agrega los modelos en promo en el arreglo de promos)
+              (Agrega los modelos en promo en el arreglo del carrusel)
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -155,25 +173,56 @@ export default function Home() {
               </button>
             </div>
 
-            <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-800">
+            {/* Beneficios */}
+            <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-900">
               <span>✔️ Garantía</span>
               <span>✔️ Pago seguro</span>
               <span>✔️ Soporte por WhatsApp</span>
             </div>
           </div>
 
-          {/* Carrusel/Imagen PROMO (tu bloque actual) */}
+          {/* PROMO imagen con carrusel */}
           <div className="relative">
-            <div className="w-full mx-auto max-w-md sm:max-w-lg lg:max-w-xl rounded-3xl overflow-hidden bg-white p-0.5 sm:p-1 shadow-[0_6px_24px_rgba(0,0,0,0.08)] ring-1 ring-black/5 border border-neutral-200">
-              <div className="w-full h-72 sm:h-80 md:h-96 lg:h-[420px]">
+            <div
+              className="
+                w-full mx-auto
+                max-w-md sm:max-w-lg
+                rounded-3xl overflow-hidden bg-white
+                p-0.5 sm:p-1
+                shadow-[0_6px_24px_rgba(0,0,0,0.08)]
+                ring-1 ring-black/5
+                border border-neutral-200
+              "
+            >
+              <div className="relative w-full h-80 md:h-96">
                 <img
-                  src="/products/promo-semanal-1.png"
+                  key={promoImages[slide]}
+                  src={promoImages[slide]}
                   alt="Oferta semanal URBANSHOES"
                   className="w-full h-full object-contain block"
                   loading="eager"
                   fetchPriority="high"
                   sizes="(max-width:640px) 85vw, (max-width:1024px) 50vw, 640px"
                 />
+
+                {promoImages.length > 1 && (
+                  <>
+                    <button
+                      onClick={prev}
+                      aria-label="Anterior"
+                      className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-black/60 text-white grid place-items-center hover:bg-black/70"
+                    >
+                      ‹
+                    </button>
+                    <button
+                      onClick={next}
+                      aria-label="Siguiente"
+                      className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-black/60 text-white grid place-items-center hover:bg-black/70"
+                    >
+                      ›
+                    </button>
+                  </>
+                )}
               </div>
             </div>
 
@@ -190,7 +239,7 @@ export default function Home() {
           {categories.map((c) => (
             <button
               key={c}
-              onClick={() => { setCategory(c); setPage(1); }}
+              onClick={() => setCategory(c)}
               className={`whitespace-nowrap px-4 py-2 rounded-2xl border text-sm transition ${
                 category === c
                   ? "bg-[var(--accent)] text-white border-[var(--accent)]"
@@ -203,98 +252,64 @@ export default function Home() {
         </div>
       </section>
 
-      {/* GRID de productos */}
+      {/* Grid de productos */}
       <main className="max-w-7xl mx-auto px-4 py-10">
         <div className="flex items-end justify-between gap-4 mb-6">
           <h2 className="text-2xl md:text-3xl font-black">Productos</h2>
-          <div className="text-sm text-neutral-500">
-            {loadingList ? "Cargando..." : `${filtered.length} resultado${filtered.length !== 1 ? "s" : ""}`}
+          <div className="text-sm text-neutral-500 hidden sm:block">
+            {loading
+              ? "Cargando…"
+              : `${filtered.length} resultado${filtered.length !== 1 ? "s" : ""}`}
           </div>
         </div>
 
-        {/* Skeletons mientras carga */}
-        {loadingList ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="animate-pulse rounded-2xl border bg-white">
-                <div className="aspect-square bg-neutral-200" />
-                <div className="p-3 space-y-2">
-                  <div className="h-4 bg-neutral-200 rounded w-3/4" />
-                  <div className="h-3 bg-neutral-200 rounded w-1/2" />
-                  <div className="h-6 bg-neutral-200 rounded w-1/3" />
-                </div>
-              </div>
-            ))}
+        {error && (
+          <div className="mb-6 rounded-xl border border-red-200 bg-red-50 text-red-700 px-4 py-3">
+            {error}
           </div>
-        ) : (
-          <>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {visible.map((p) => {
-                const src = p.img?.startsWith("http")
-                  ? p.img
-                  : `/products/${p.img}`;
-                return (
-                  <article
-                    key={p.id}
-                    className="group rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
-                  >
-                    <div className="aspect-square overflow-hidden">
-                      <img
-                        src={src}
-                        alt={p.name}
-                        className="h-full w-full object-cover group-hover:scale-105 transition"
-                        loading="lazy"
-                        sizes="(max-width:768px) 50vw, (max-width:1024px) 25vw, 20vw"
-                      />
-                    </div>
-                    <div className="p-3">
-                      <div className="flex items-center justify-between gap-2">
-                        <h3 className="font-semibold leading-tight overflow-hidden text-ellipsis whitespace-nowrap">
-                          {p.name}
-                        </h3>
-                        {p.tag && (
-                          <span className="text-[10px] px-2 py-1 rounded-full bg-[var(--accent-2)]/10 text-[var(--accent-2)] font-bold uppercase">
-                            {p.tag}
-                          </span>
-                        )}
-                      </div>
-                      <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
-                        {Array.isArray(p.category) ? p.category.join(" • ") : ""}
-                      </div>
-                      <div className="mt-3 flex items-center justify-between">
-                        <div className="text-lg font-black">{formatCOP(p.price)}</div>
-                        <button className="px-3 py-2 rounded-xl text-sm font-semibold bg-[var(--accent)] text-white hover:opacity-90">
-                          Agregar
-                        </button>
-                      </div>
-                    </div>
-                  </article>
-                );
-              })}
-            </div>
-
-            {/* Paginar / Cargar más */}
-            {canLoadMore && (
-              <div className="flex justify-center mt-8">
-                <button
-                  onClick={() => setPage((n) => n + 1)}
-                  className="px-5 py-3 rounded-2xl font-semibold border bg-white hover:border-[var(--brand)]"
-                >
-                  Cargar más
-                </button>
-              </div>
-            )}
-
-            {/* Sin resultados */}
-            {!loadingList && filtered.length === 0 && (
-              <div className="text-center text-neutral-500 mt-10">
-                No encontramos productos que coincidan con tu búsqueda.
-              </div>
-            )}
-          </>
         )}
 
-        {/* Callouts (igual que antes) */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {!loading &&
+            filtered.map((p) => (
+              <article
+                key={p.id}
+                className="group rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
+              >
+                <div className="aspect-square overflow-hidden">
+                  <img
+                    src={p.img /* e.g. "/products/nikesunnder.jpeg" */}
+                    alt={p.name}
+                    className="h-full w-full object-cover group-hover:scale-105 transition"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-semibold leading-tight overflow-hidden text-ellipsis whitespace-nowrap">
+                      {p.name}
+                    </h3>
+                    {p.tag && (
+                      <span className="text-[10px] px-2 py-1 rounded-full bg-[var(--accent-2)]/10 text-[var(--accent-2)] font-bold uppercase">
+                        {p.tag}
+                      </span>
+                    )}
+                  </div>
+                  <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
+                    {(p.category || []).join(" • ")}
+                  </div>
+                  <div className="mt-3 flex items-center justify-between">
+                    <div className="text-lg font-black">{formatCOP(p.price)}</div>
+                    <button className="px-3 py-2 rounded-xl text-sm font-semibold bg-[var(--accent)] text-white hover:opacity-90">
+                      Agregar
+                    </button>
+                  </div>
+                </div>
+              </article>
+            ))}
+        </div>
+
+        {/* Callouts */}
         <div className="mt-10 grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl p-6 bg-gradient-to-br from-[var(--brand)] to-[#1f1f1f] text-white">
             <h3 className="text-2xl font-black">Colección 9060</h3>
@@ -326,13 +341,15 @@ export default function Home() {
               </div>
               <span className="font-black">URBANSHOES</span>
             </div>
-            <p className="mt-3 text-neutral-500">Zapatillas urbanas y deportivas — Colombia.</p>
+            <p className="mt-3 text-neutral-500">
+              Zapatillas urbanas y deportivas — Colombia.
+            </p>
           </div>
           <div>
             <h4 className="font-bold mb-2">Categorías</h4>
             <div className="space-y-1 text-neutral-600">
               {categories.slice(1).map((c) => (
-                <button key={c} onClick={() => { setCategory(c); setPage(1); }} className="block hover:text-[var(--brand)]">
+                <button key={c} onClick={() => setCategory(c)} className="block hover:text-[var(--brand)]">
                   {c}
                 </button>
               ))}
@@ -349,7 +366,8 @@ export default function Home() {
           <div>
             <h4 className="font-bold mb-2">Contáctanos</h4>
             <p className="text-neutral-600">
-              WhatsApp: +57 300 000 0000 <br />
+              WhatsApp: +57 300 000 0000
+              <br />
               Instagram: @urbanshoes.co
             </p>
             <button className="mt-3 px-4 py-2 rounded-xl bg-[var(--brand)] text-white font-semibold">
@@ -362,7 +380,7 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* admin */}
+      {/* Botón admin */}
       <Link
         to="/login"
         aria-label="acceso administrador"
@@ -374,7 +392,7 @@ export default function Home() {
   );
 }
 
-// Util
+/* util */
 function formatCOP(n) {
   try {
     return new Intl.NumberFormat("es-CO", {
