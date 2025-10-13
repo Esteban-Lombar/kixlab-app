@@ -4,7 +4,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas","Running", "NIKE SUNNDER"],
+    "category": ["Deportivas","Running"],
     "img": "/products/nikesunnder-blanco-rosa.jpeg"
   },
   {
@@ -12,7 +12,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "NIKE SUNNDER"],
+    "category": ["Deportivas", "Running"],
     "img": "/products/nikesunnder-amarillo-blanco.jpeg"
   },
   {
@@ -20,7 +20,7 @@
     "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "NIKE SUNNDER"],
+    "category": ["Deportivas", "Running"],
     "img": "/products/nikesunnder-blanco-rojo.jpeg"
   },
   {
@@ -38,6 +38,46 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas"],
     "img": "/products/jordanretro3-blanco.jpeg"
+  },
+  {
+    "id": "nikeshock-negro-rojo",
+    "name": "NIKE SHOCK",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running"],
+    "img": "/products/nikeshock-negro-rojo.jpeg"
+  },
+  {
+    "id": "nikeshock-blanco-plateado",
+    "name": "NIKE SHOCK",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running"],
+    "img": "/products/nikeshock-blanco-plateado.jpeg"
+  },
+  {
+    "id": "nikeshock-negro-plateado-rojo",
+    "name": "NIKE SHOCK",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running"],
+    "img": "/products/nikeshock-negro-plateado-rojo.jpeg"
+  },
+  {
+    "id": "nikeshock-negro",
+    "name": "NIKE SHOCK",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running"],
+    "img": "/products/nikeshock-negro.jpeg"
+  },
+  {
+    "id": "nikeshock-blanco-plateado-rojo",
+    "name": "NIKE SHOCK",
+    "price": 208000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running"],
+    "img": "/products/nikeshock-blanco-plateado-rojo.jpeg"
   }
   
 ]
