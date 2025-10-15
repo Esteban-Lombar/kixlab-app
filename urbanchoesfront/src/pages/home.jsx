@@ -312,9 +312,9 @@ export default function Home() {
         {/* Callouts */}
         <div className="mt-10 grid md:grid-cols-2 gap-6">
           <div className="rounded-3xl p-6 bg-gradient-to-br from-[var(--brand)] to-[#1f1f1f] text-white">
-            <h3 className="text-2xl font-black">Colección 9060</h3>
+            <h3 className="text-2xl font-black">🔥LO MAS APETECIDO🔥</h3>
             <p className="mt-2 text-sm opacity-90 max-w-prose">
-              Silueta icónica con acabados premium. Descubre colores limitados y stock fresco.
+              Los modelos mas deseados por nuestros clientes.
             </p>
             <button className="mt-4 px-4 py-2 rounded-xl bg-white text-[var(--brand)] font-semibold hover:opacity-90">
               Ver colección
@@ -323,9 +323,10 @@ export default function Home() {
           <div className="rounded-3xl p-6 border">
             <h3 className="text-2xl font-black">Pagos y envíos</h3>
             <ul className="mt-2 text-sm text-neutral-600 space-y-1 list-disc list-inside">
-              <li>Pago contraentrega y PSE</li>
-              <li>Envío nacional 24–72h</li>
-              <li>Cambios flexibles dentro de 30 días</li>
+              <li>Pago contraentrega y otros medios de pago</li>
+              <li>Envios a nivel nacional</li>
+              <li>Envío a la ciudad de cali de 24-48h</li>
+              <li>Cambios flexibles</li>
             </ul>
           </div>
         </div>
@@ -342,7 +343,7 @@ export default function Home() {
               <span className="font-black">URBANSHOES</span>
             </div>
             <p className="mt-3 text-neutral-500">
-              Zapatillas urbanas y deportivas — Colombia.
+              Zapatillas urbanas y deportivas y muchas mas — Colombia.
             </p>
           </div>
           <div>
@@ -366,9 +367,9 @@ export default function Home() {
           <div>
             <h4 className="font-bold mb-2">Contáctanos</h4>
             <p className="text-neutral-600">
-              WhatsApp: +57 300 000 0000
+              WhatsApp: +57 318 0127867
               <br />
-              Instagram: @urbanshoes.co
+              Instagram: @urbanshoess.oficial
             </p>
             <button className="mt-3 px-4 py-2 rounded-xl bg-[var(--brand)] text-white font-semibold">
               Escríbenos
