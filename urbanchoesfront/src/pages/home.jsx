@@ -157,8 +157,8 @@ export default function Home() {
             {/* PROMO texto corto */}
             <p className="mt-4 text-neutral-900 max-w-prose">
               <span className="mr-1">🔥</span>
-              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $120.000) ·{" "}
-              <b>contraentrega y envío nacional. Stock limitado.</b>
+              <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $145.000) ·{" "}
+              <b>contraentrega. Promo valida solo para Cali. Stock limitado.</b>
             </p>
             <p className="mt-1 text-xs text-neutral-500">
               (Agrega los modelos en promo en el arreglo del carrusel)
