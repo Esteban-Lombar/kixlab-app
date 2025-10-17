@@ -273,39 +273,47 @@ export default function Home() {
           {!loading &&
             filtered.map((p) => (
               <article
-                key={p.id}
-                className="group rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
-              >
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={p.img /* e.g. "/products/nikesunnder.jpeg" */}
-                    alt={p.name}
-                    className="h-full w-full object-cover group-hover:scale-105 transition"
-                    loading="lazy"
-                  />
-                </div>
-                <div className="p-3">
-                  <div className="flex items-center justify-between gap-2">
-                    <h3 className="font-semibold leading-tight overflow-hidden text-ellipsis whitespace-nowrap">
-                      {p.name}
-                    </h3>
-                    {p.tag && (
-                      <span className="text-[10px] px-2 py-1 rounded-full bg-[var(--accent-2)]/10 text-[var(--accent-2)] font-bold uppercase">
-                        {p.tag}
-                      </span>
-                    )}
-                  </div>
-                  <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
-                    {(p.category || []).join(" • ")}
-                  </div>
-                  <div className="mt-3 flex items-center justify-between">
-                    <div className="text-lg font-black">{formatCOP(p.price)}</div>
-                    <button className="px-3 py-2 rounded-xl text-sm font-semibold bg-[var(--accent)] text-white hover:opacity-90">
-                      Agregar
-                    </button>
-                  </div>
-                </div>
-              </article>
+  key={p.id}
+  className="group relative rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
+>
+  {/* Imagen + TAG superpuesto */}
+  <div className="relative aspect-square overflow-hidden">
+    <img
+      src={p.img}
+      alt={p.name}
+      className="h-full w-full object-cover group-hover:scale-105 transition"
+      loading="lazy"
+    />
+
+    {p.tag && (
+      <span className="absolute top-2 right-2 z-10 text-[9px] px-1.5 py-0.5 rounded-md
+                       bg-[var(--accent-2)]/90 text-white font-semibold uppercase shadow">
+        {p.tag}
+      </span>
+    )}
+  </div>
+
+  <div className="p-3">
+    <div className="flex items-center justify-between gap-2">
+      <h3 className="font-medium text-[13px] leading-snug truncate">{p.name}</h3>
+      {/* (ya no ponemos el tag aquí) */}
+    </div>
+
+    <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
+      {(p.category || []).join(" • ")}
+    </div>
+
+    <div className="mt-3 flex items-center justify-between">
+      <div className="text-lg font-black">{formatCOP(p.price)}</div>
+
+      {/* botón compacto + typos corregidos */}
+      <button className="px-2 py-1 rounded-lg text-xs font-medium bg-[var(--accent)] text-white hover:opacity-90">
+        Agregar
+      </button>
+    </div>
+  </div>
+</article>
+
             ))}
         </div>
 
