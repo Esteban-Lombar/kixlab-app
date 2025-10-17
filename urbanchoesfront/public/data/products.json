@@ -261,7 +261,191 @@
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual","Caballero"],
-    "img": "/products/nikedunk-blanco-azul.jpeg"
+   "img": "/products/nikedunk-blanco-azul.jpeg"
+  },
+  {
+    "id": "adidasalphabounce-negras-azul-blanco",
+    "name": "ADIDAS ALPHABOUNCE",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Running", "Deportivas", "Caballero", "Dama"],
+   "img": "/products/adidasalphabounce-negras-azul-blanco.jpeg"
+  },
+  {
+    "id": "pumacalifornia-negro-blanco",
+    "name": "PUMA CALIFORNIA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual","Caballero", "Dama"],
+   "img": "/products/pumacalifornia-negro-blanco.jpeg"
+  },
+  {
+    "id": "nikeairmax90-blanco-rojo-negro",
+    "name": "NIKE AIR MAX 90",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Caballero"],
+   "img": "/products/nikeairmax90-blanco-rojo-negro.jpeg"
+  },
+  {
+    "id": "balenciagasss-blanco-rojo",
+    "name": "BALENCIAGA SSS",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Dama"],
+   "img": "/products/balenciagasss-blanco-rojo.jpeg"
+  },
+  {
+    "id": "niketrail-blanco-negro",
+    "name": "NIKE TRAIL",
+    "price": 220000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
+   "img": "/products/niketrail-blanco-negro.jpeg"
+  },
+  {
+    "id": "nikevomero-blanco-plata-rosa",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas","Dama"],
+   "img": "/products/nikevomero-blanco-plata-rosa.jpeg"
+  },
+  {
+    "id": "nikeiniator-blanco-cafe",
+    "name": "NIKE INIATOR",
+    "price": 263000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas","Dama"],
+   "img": "/products/nikeiniator-blanco-cafe.jpeg"
+  },
+  {
+    "id": "adidassupermagma-negro-blanco",
+    "name": "ADIDAS SUPERMAGMA",
+    "price": 230000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas","Dama"],
+   "img": "/products/adidassupermagma-negro-blanco.jpeg"
+  },
+  {
+    "id": "niketrail-naranja-azul-negro",
+    "name": "NIKE TRAIL",
+    "price": 220000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Running", "Caballero"," Dama"],
+   "img": "/products/niketrail-naranja-azul-negro.jpeg"
+  },
+  {
+    "id": "adidassupermagma-azul-blanco",
+    "name": "ADIDAS SUPERMAGMA",
+    "price": 230000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas"," Dama"],
+   "img": "/products/adidassupermagma-azul-blanco.jpeg"
+  },
+  {
+    "id": "niketrail-negro-blanco",
+    "name": "NIKE TRAIL",
+    "price": 220000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Running", "Caballero", "Dama"],
+   "img": "/products/niketrail-negro-blanco.jpeg"
+  },
+  {
+    "id": "nikevomero-blanco-pastel",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Dama"],
+   "img": "/products/nikevomero-blanco-pastel.jpeg"
+  },
+  {
+    "id": "newbalance190r-azul-grisazul",
+    "name": "NEWBALANCE 1906R",
+    "price": 210000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
+   "img": "/products/newbalance190r-azul-grisazul.jpeg"
+  },
+  {
+    "id": "niketrail-rosa-azul-rojo",
+    "name": "NIKE TRAIL",
+    "price": 220000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Running", "Caballero", "Dama"],
+   "img": "/products/niketrail-rosa-azul-rojo.jpeg"
+  },
+  {
+    "id": "nikevomero-cafe-blanco",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Dama"],
+   "img": "/products/nikevomero-cafe-blanco.jpeg"
+  },
+  {
+    "id": "newbalance1906r-blanco-plata",
+    "name": "NEWBALANCE 1906R",
+    "price": 210000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
+   "img": "/products/newbalance1906r-blanco-plata.jpeg"
+  },
+  {
+    "id": "newbalance1906r-blanco-negro",
+    "name": "NEWBALANCE 1906R",
+    "price": 210000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
+   "img": "/products/newbalance1906r-blanco-negro.jpeg"
+  },
+  {
+    "id": "nikevomero-cafe-naranja",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Dama"],
+   "img": "/products/nikevomero-cafe-naranja.jpeg"
+  },
+  {
+    "id": "niketrail-rosa-blanco",
+    "name": "NIKE TRAIL",
+    "price": 220000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Running", "Dama"],
+   "img": "/products/niketrail-rosa-blanco.jpeg"
+  },
+  {
+    "id": "adidassupermagma-negro-blanco-naranja",
+    "name": "ADIDAS SUPERMAGMA",
+    "price": 230000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas"," Dama"],
+   "img": "/products/adidassupermagma-negro-blanco-naranja.jpeg"
+  },
+  {
+    "id": "nikevomero-gris-plata-azul",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Dama"],
+   "img": "/products/nikevomero-gris-plata-azul.jpeg"
+  },
+  {
+    "id": "adidassupermagma-negro-blanco-verde",
+    "name": "ADIDAS SUPERMAGMA",
+    "price": 230000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas"," Dama"],
+   "img": "/products/adidassupermagma-negro-blanco-verde.jpeg"
+  },
+  {
+    "id": "nikevomero-dorado-blanco",
+    "name": "NIKE VOMERO",
+    "price": 217000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Deportivas", "Dama"],
+   "img": "/products/nikevomero-dorado-blanco.jpeg"
   }
   
 ]
