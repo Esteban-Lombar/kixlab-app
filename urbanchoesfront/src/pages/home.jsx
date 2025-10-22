@@ -117,7 +117,7 @@ export default function Home() {
               <img src="/LOGO MARCA INSTAGRAM.png" alt="URBANSHOES" className="h-full w-full object-cover" />
             </div>
             <div className="leading-tight">
-              <div className="text-xl font-black tracking-tight">URBANSHOES</div>
+              <div className="text-xl font-black tracking-tight">-KIXLAB-</div>
               <div className="text-[10px] uppercase tracking-[0.2em] text-neutral-500">CALI — COLOMBIA</div>
             </div>
           </div>
@@ -227,7 +227,7 @@ export default function Home() {
             </div>
 
             <div className="absolute -bottom-3 -right-3 bg-white px-3 py-2 rounded-xl shadow border border-neutral-200 text-xs sm:text-sm">
-              <strong>URBANSHOES</strong> — edición limitada
+              <strong>KIXLAB</strong> — Tiempo limitado
             </div>
           </div>
         </div>
@@ -348,7 +348,7 @@ export default function Home() {
               <div className="h-8 w-8 rounded-lg bg-[var(--brand)] grid place-items-center overflow-hidden">
                 <img src="/LOGO MARCA INSTAGRAM.png" alt="URBANSHOES" className="h-full w-full object-cover" />
               </div>
-              <span className="font-black">URBANSHOES</span>
+              <span className="font-black">KIXLAB</span>
             </div>
             <p className="mt-3 text-neutral-500">
               Zapatillas urbanas y deportivas y muchas mas — Colombia.
@@ -377,7 +377,7 @@ export default function Home() {
             <p className="text-neutral-600">
               WhatsApp: +57 318 0127867
               <br />
-              Instagram: @urbanshoess.oficial
+              Instagram: @kixlab.co
             </p>
             <button className="mt-3 px-4 py-2 rounded-xl bg-[var(--brand)] text-white font-semibold">
               Escríbenos
@@ -385,7 +385,7 @@ export default function Home() {
           </div>
         </div>
         <div className="border-t py-4 text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} URBANSHOES — Todos los derechos reservados.
+          © {new Date().getFullYear()} KIXLAB — Todos los derechos reservados.
         </div>
       </footer>
 
