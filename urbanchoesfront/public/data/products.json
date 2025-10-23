@@ -446,6 +446,126 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
    "img": "/products/nikevomero-dorado-blanco.jpeg"
+  },
+  {
+    "id": "gucci-bana-blanco-rojo-azul",
+    "name": "GUCCI BANA",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+   "img": "/products/gucci-bana-blanco-rojo-azul.jpeg"
+  },
+  {
+    "id": "gucci-bana-negro-blanco",
+    "name": "GUCCI BANA",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+   "img": "/products/gucci-bana-negro-blanco.jpeg"
+  },
+  {
+    "id": "gucci-bana-negro-rojo-blanco",
+    "name": "GUCCI BANA",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Caballero"],
+   "img": "/products/gucci-bana-negro-rojo-blanco.jpeg"
+  },
+  {
+    "id": "nike-zoom-mercurial-vapor-15-elite-blanco-rojo",
+    "name": "NIKE ZOMM MERCURIAL VAPOR 15 ELITE",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Deportivas"],
+   "img": "/products/nike-zoom-mercurial-vapor-15-elite-blanco-rojo.jpeg"
+  },
+  {
+    "id": "new-balance-530-negro-blanco-gris",
+    "name": "NEW BALANCE 530",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", " Dama", "Deportivas", "Urbanas"],
+   "img": "/products/new-balance-530-negro-blanco-gris.jpeg"
+  },
+  {
+    "id": "new-balance-999-blanco-negro-gris",
+    "name": "NEW BALANCE 999",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Deportivas", "Urbanas"],
+   "img": "/products/new-balance-999-blanco-negro-gris.jpeg"
+  },
+  {
+    "id": "new-balance-999-blanco-azuloscuro-rojo",
+    "name": "NEW BALANCE 999",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Deportivas", "Urbanas"],
+   "img": "/products/new-balance-999-blanco-azuloscuro-rojo.jpeg"
+  },
+  {
+    "id": "puma-velocity-nitro-3-verde-negro-blanco",
+    "name": "PUMA VELOCITY NITRO 3",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+   "img": "/products/puma-velocity-nitro-3-verde-negro-blanco.jpeg"
+  },
+  {
+    "id": "nike-zoom-fly-6-blanco-verde-negro",
+    "name": "NIKE ZOOM FLY 6",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+   "img": "/products/nike-zoom-fly-6-blanco-verde-negro.jpeg"
+  },
+  {
+    "id": "nike-zoom-fly-6-negro-blanco",
+    "name": "NIKE ZOOM FLY 6",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+   "img": "/products/nike-zoom-fly-6-negro-blanco.jpeg"
+  },
+  {
+    "id": "nike-zoom-fly-6-blanco-rosa-negro",
+    "name": "NIKE ZOOM FLY 6",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+   "img": "/products/nike-zoom-fly-6-blanco-rosa-negro.jpeg"
+  },
+  {
+    "id": "nike-zoom-fly-6-blanco-morado-negro",
+    "name": "NIKE ZOOM FLY 6",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Deportivas", "Running", "Caballero"],
+   "img": "/products/nike-zoom-fly-6-blanco-morado-negro.jpeg"
+  },
+  {
+    "id": "dc-shoes-stag-blanco-cafe",
+    "name": "DC SHOES STAG",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Dama", "Caballero"],
+   "img": "/products/dc-shoes-stag-blanco-cafe.jpeg"
+  },
+  {
+    "id": "dc-shoes-stag-negro",
+    "name": "DC SHOES STAG",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Dama", "Caballero"],
+   "img": "/products/dc-shoes-stag-negro.jpeg"
+  },
+  {
+    "id": "dc-shoes-stag-negro-blanco-amarillo",
+    "name": "DC SHOES STAG",
+    "price": 110000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Urbanas", "Casual", "Dama", "Caballero"],
+   "img": "/products/dc-shoes-stag-negro-blanco-amarillo.jpeg"
   }
   
 ]
