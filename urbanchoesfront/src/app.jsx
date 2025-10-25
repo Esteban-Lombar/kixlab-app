@@ -4,6 +4,8 @@ import Login from "./pages/login.jsx";
 import Dashboard from "./pages/admin/dashboard.jsx";
 import { useAuthStore } from "./store/auth.store.js";
 import WhatsAppButton from "./components/WhatsAppButton";
+import ProductDetail from "./pages/productDetail.jsx";
+
 
 
 // 🔹 importación para probar la conexión al backend
@@ -47,8 +49,10 @@ export default function App() {
         <Route path="/admin" element={<PrivateRoute />}>
           <Route index element={<Dashboard />} />
         </Route>
+        <Route path="/producto/:id" element={<ProductDetail />} />
+
       </Routes>
-      
+
       <WhatsAppButton />
 
     </div>
