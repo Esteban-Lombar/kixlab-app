@@ -516,7 +516,7 @@
     "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "Caballero"],
+    "category": ["Deportivas", "Running", "Caballero", "Dama"],
    "img": "/products/nike-zoom-fly-6-blanco-verde-negro.jpeg"
   },
   {
@@ -524,7 +524,7 @@
     "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "Caballero"],
+    "category": ["Deportivas", "Running", "Caballero", " Dama"],
    "img": "/products/nike-zoom-fly-6-negro-blanco.jpeg"
   },
   {
@@ -532,7 +532,7 @@
     "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "Caballero"],
+    "category": ["Deportivas", "Running", "Caballero", " Dama"],
    "img": "/products/nike-zoom-fly-6-blanco-rosa-negro.jpeg"
   },
   {
@@ -540,7 +540,7 @@
     "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
-    "category": ["Deportivas", "Running", "Caballero"],
+    "category": ["Deportivas", "Running", "Caballero", "Dama"],
    "img": "/products/nike-zoom-fly-6-blanco-morado-negro.jpeg"
   },
   {
