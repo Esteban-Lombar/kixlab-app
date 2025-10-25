@@ -24,7 +24,7 @@ export default function Home() {
     "Caballero",
   ];
 
-  // ✅ Carga robusta del JSON desde /public (funciona en local y Vercel)
+  // ✅ Carga JSON desde /public/data y muestra los últimos productos primero
   useEffect(() => {
     let alive = true;
     setLoading(true);
@@ -35,19 +35,21 @@ export default function Home() {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         const data = await r.json();
 
-        // Normalizo rutas de imagen por si alguna viene sin prefijo "/products/"
-        const norm = (data || []).map((p) => {
-          let img = p.img || "";
-          if (
-            img &&
-            !img.startsWith("http") &&
-            !img.startsWith("/") &&
-            !img.startsWith("./")
-          ) {
-            img = `/products/${img}`;
-          }
-          return { ...p, img };
-        });
+        // Normaliza rutas + invierte orden (últimos primero)
+        const norm = (data || [])
+          .map((p) => {
+            let img = p.img || "";
+            if (
+              img &&
+              !img.startsWith("http") &&
+              !img.startsWith("/") &&
+              !img.startsWith("./")
+            ) {
+              img = `/products/${img}`;
+            }
+            return { ...p, img };
+          })
+          .reverse(); // 👈 Aquí se invierte el orden
 
         if (alive) setProducts(norm);
       })
@@ -154,14 +156,10 @@ export default function Home() {
               PROMOS SEMANALES <span className="text-[var(--accent)]">AL MEJOR ESTILO</span>
             </h1>
 
-            {/* PROMO texto corto */}
             <p className="mt-4 text-neutral-900 max-w-prose">
               <span className="mr-1">🔥</span>
               <b>OFERTA SEMANAL:</b> AF1 Urban Red a $100.000 (antes $145.000) ·{" "}
-              <b>contraentrega. Promo valida solo para Cali. Stock limitado.</b>
-            </p>
-            <p className="mt-1 text-xs text-neutral-500">
-              (Agrega los modelos en promo en el arreglo del carrusel)
+              <b>contraentrega. Promo válida solo para Cali. Stock limitado.</b>
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
@@ -172,39 +170,18 @@ export default function Home() {
                 Ver novedades
               </button>
             </div>
-
-            {/* Beneficios */}
-            <div className="mt-6 flex flex-wrap gap-4 text-xs text-neutral-900">
-              <span>✔️ Garantía</span>
-              <span>✔️ Pago seguro</span>
-              <span>✔️ Soporte por WhatsApp</span>
-            </div>
           </div>
 
-          {/* PROMO imagen con carrusel */}
+          {/* Imagen con carrusel */}
           <div className="relative">
-            <div
-              className="
-                w-full mx-auto
-                max-w-md sm:max-w-lg
-                rounded-3xl overflow-hidden bg-white
-                p-0.5 sm:p-1
-                shadow-[0_6px_24px_rgba(0,0,0,0.08)]
-                ring-1 ring-black/5
-                border border-neutral-200
-              "
-            >
+            <div className="w-full mx-auto max-w-md sm:max-w-lg rounded-3xl overflow-hidden bg-white p-0.5 sm:p-1 shadow-[0_6px_24px_rgba(0,0,0,0.08)] ring-1 ring-black/5 border border-neutral-200">
               <div className="relative w-full h-80 md:h-96">
                 <img
                   key={promoImages[slide]}
                   src={promoImages[slide]}
                   alt="Oferta semanal URBANSHOES"
                   className="w-full h-full object-contain block"
-                  loading="eager"
-                  fetchPriority="high"
-                  sizes="(max-width:640px) 85vw, (max-width:1024px) 50vw, 640px"
                 />
-
                 {promoImages.length > 1 && (
                   <>
                     <button
@@ -252,7 +229,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Grid de productos */}
+      {/* Catálogo */}
       <main className="max-w-7xl mx-auto px-4 py-10">
         <div className="flex items-end justify-between gap-4 mb-6">
           <h2 className="text-2xl md:text-3xl font-black">Productos</h2>
@@ -273,130 +250,40 @@ export default function Home() {
           {!loading &&
             filtered.map((p) => (
               <article
-  key={p.id}
-  className="group relative rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
->
-  {/* Imagen + TAG superpuesto */}
-  <div className="relative aspect-square overflow-hidden">
-    <img
-      src={p.img}
-      alt={p.name}
-      className="h-full w-full object-cover group-hover:scale-105 transition"
-      loading="lazy"
-    />
+                key={p.id}
+                className="group relative rounded-2xl overflow-hidden border bg-white hover:shadow-lg transition"
+              >
+                <div className="relative aspect-square overflow-hidden">
+                  <img
+                    src={p.img}
+                    alt={p.name}
+                    className="h-full w-full object-cover group-hover:scale-105 transition"
+                  />
+                  {p.tag && (
+                    <span className="absolute top-2 right-2 z-10 text-[9px] px-1.5 py-0.5 rounded-md bg-[var(--accent-2)]/90 text-white font-semibold uppercase shadow">
+                      {p.tag}
+                    </span>
+                  )}
+                </div>
 
-    {p.tag && (
-      <span className="absolute top-2 right-2 z-10 text-[9px] px-1.5 py-0.5 rounded-md
-                       bg-[var(--accent-2)]/90 text-white font-semibold uppercase shadow">
-        {p.tag}
-      </span>
-    )}
-  </div>
-
-  <div className="p-3">
-    <div className="flex items-center justify-between gap-2">
-      <h3 className="font-medium text-[13px] leading-snug truncate">{p.name}</h3>
-      {/* (ya no ponemos el tag aquí) */}
-    </div>
-
-    <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
-      {(p.category || []).join(" • ")}
-    </div>
-
-    <div className="mt-3 flex items-center justify-between">
-      <div className="text-lg font-black">{formatCOP(p.price)}</div>
-
-      {/* botón compacto + typos corregidos */}
-      <button className="px-2 py-1 rounded-lg text-xs font-medium bg-[var(--accent)] text-white hover:opacity-90">
-        Agregar
-      </button>
-    </div>
-  </div>
-</article>
-
+                <div className="p-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-medium text-[13px] leading-snug truncate">{p.name}</h3>
+                  </div>
+                  <div className="mt-1 text-sm text-neutral-500 overflow-hidden text-ellipsis whitespace-nowrap">
+                    {(p.category || []).join(" • ")}
+                  </div>
+                  <div className="mt-3 flex items-center justify-between">
+                    <div className="text-lg font-black">{formatCOP(p.price)}</div>
+                    <button className="px-2 py-1 rounded-lg text-xs font-medium bg-[var(--accent)] text-white hover:opacity-90">
+                      Agregar
+                    </button>
+                  </div>
+                </div>
+              </article>
             ))}
         </div>
-
-        {/* Callouts */}
-        <div className="mt-10 grid md:grid-cols-2 gap-6">
-          <div className="rounded-3xl p-6 bg-gradient-to-br from-[var(--brand)] to-[#1f1f1f] text-white">
-            <h3 className="text-2xl font-black">🔥LO MAS APETECIDO🔥</h3>
-            <p className="mt-2 text-sm opacity-90 max-w-prose">
-              Los modelos mas deseados por nuestros clientes.
-            </p>
-            <button className="mt-4 px-4 py-2 rounded-xl bg-white text-[var(--brand)] font-semibold hover:opacity-90">
-              Ver colección
-            </button>
-          </div>
-          <div className="rounded-3xl p-6 border">
-            <h3 className="text-2xl font-black">Pagos y envíos</h3>
-            <ul className="mt-2 text-sm text-neutral-600 space-y-1 list-disc list-inside">
-              <li>Pago contraentrega y otros medios de pago</li>
-              <li>Envios a nivel nacional</li>
-              <li>Envío a la ciudad de cali de 24-48h</li>
-              <li>Cambios flexibles</li>
-            </ul>
-          </div>
-        </div>
       </main>
-
-      {/* FOOTER */}
-      <footer className="mt-10 border-t">
-        <div className="max-w-7xl mx-auto px-4 py-10 grid md:grid-cols-4 gap-8 text-sm">
-          <div>
-            <div className="flex items-center gap-2">
-              <div className="h-8 w-8 rounded-lg bg-[var(--brand)] grid place-items-center overflow-hidden">
-                <img src="/LOGO MARCA INSTAGRAM.png" alt="URBANSHOES" className="h-full w-full object-cover" />
-              </div>
-              <span className="font-black">KIXLAB</span>
-            </div>
-            <p className="mt-3 text-neutral-500">
-              Zapatillas urbanas y deportivas y muchas mas — Colombia.
-            </p>
-          </div>
-          <div>
-            <h4 className="font-bold mb-2">Categorías</h4>
-            <div className="space-y-1 text-neutral-600">
-              {categories.slice(1).map((c) => (
-                <button key={c} onClick={() => setCategory(c)} className="block hover:text-[var(--brand)]">
-                  {c}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h4 className="font-bold mb-2">Soporte</h4>
-            <ul className="space-y-1 text-neutral-600">
-              <li>Preguntas frecuentes</li>
-              <li>Cambios y devoluciones</li>
-              <li>Envíos y pagos</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-bold mb-2">Contáctanos</h4>
-            <p className="text-neutral-600">
-              WhatsApp: +57 318 0127867
-              <br />
-              Instagram: @kixlab.co
-            </p>
-            <button className="mt-3 px-4 py-2 rounded-xl bg-[var(--brand)] text-white font-semibold">
-              Escríbenos
-            </button>
-          </div>
-        </div>
-        <div className="border-t py-4 text-center text-xs text-neutral-500">
-          © {new Date().getFullYear()} KIXLAB — Todos los derechos reservados.
-        </div>
-      </footer>
-
-      {/* Botón admin */}
-     <Link  
-      //  to="/login"
-      //  aria-label="acceso administrador"
-      //  className="fixed bottom-4 right-4 px-3 py-2 rounded-full text-xs bg-black/60 text-white hover:bg-black/80 backdrop-blur shadow"
-      >
-        
-      </Link> 
     </div>
   );
 }
