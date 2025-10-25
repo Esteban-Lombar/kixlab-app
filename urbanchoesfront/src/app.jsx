@@ -3,6 +3,8 @@ import Home from "./pages/home.jsx";
 import Login from "./pages/login.jsx";
 import Dashboard from "./pages/admin/dashboard.jsx";
 import { useAuthStore } from "./store/auth.store.js";
+import WhatsAppButton from "./components/WhatsAppButton";
+
 
 // 🔹 importación para probar la conexión al backend
 import { useEffect } from "react";
@@ -46,6 +48,9 @@ export default function App() {
           <Route index element={<Dashboard />} />
         </Route>
       </Routes>
+      
+      <WhatsAppButton />
+
     </div>
   );
 }

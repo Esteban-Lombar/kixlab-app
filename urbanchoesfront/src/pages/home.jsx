@@ -390,13 +390,13 @@ export default function Home() {
       </footer>
 
       {/* Botón admin */}
-      <Link
-        to="/login"
-        aria-label="acceso administrador"
-        className="fixed bottom-4 right-4 px-3 py-2 rounded-full text-xs bg-black/60 text-white hover:bg-black/80 backdrop-blur shadow"
+     <Link  
+      //  to="/login"
+      //  aria-label="acceso administrador"
+      //  className="fixed bottom-4 right-4 px-3 py-2 rounded-full text-xs bg-black/60 text-white hover:bg-black/80 backdrop-blur shadow"
       >
-        admin
-      </Link>
+        
+      </Link> 
     </div>
   );
 }
