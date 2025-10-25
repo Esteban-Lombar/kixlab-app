@@ -4,12 +4,24 @@ import Login from "./pages/login.jsx";
 import Dashboard from "./pages/admin/dashboard.jsx";
 import { useAuthStore } from "./store/auth.store.js";
 
+// 🔹 importación para probar la conexión al backend
+import { useEffect } from "react";
+import { api } from "./services/api.js";
+
 function PrivateRoute() {
   const token = useAuthStore((s) => s.token);
   return token ? <Outlet /> : <Navigate to="/login" replace />;
 }
 
 export default function App() {
+  // 🔹 Probar conexión con el backend (opcional)
+  useEffect(() => {
+    api
+      .ping()
+      .then((data) => console.log("✅ Backend conectado:", data.message))
+      .catch((err) => console.error("❌ Error al conectar con backend:", err));
+  }, []);
+
   return (
     <div className="min-h-screen">
       <header className="bg-white border-b shadow-sm">
