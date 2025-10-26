@@ -566,6 +566,150 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Dama", "Caballero"],
    "img": "/products/dc-shoes-stag-negro-blanco-amarillo.jpeg"
+  },
+  {
+    "id": "nike-air-max-portal-caballero-blanco-negro",
+    "name": "NIKE AIR MAX PORTAL",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Deportivas"],
+   "img": "/products/nike-air-max-portal-caballero-blanco-negro.jpeg"
+  },
+  {
+    "id": "nike-air-max-portal-caballero-blanco-negro-dorado",
+    "name": "NIKE AIR MAX PORTAL",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Deportivas"],
+   "img": "/products/nike-air-max-portal-caballero-blanco-negro-dorado.jpeg"
+  },
+  {
+    "id": "disel-s-serendipity-lc-negrocamulado-blanco",
+    "name": "DISEL S-SERENDIPITY LC",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/disel-s-serendipity-lc-negrocamulado-blanco.jpeg"
+  }, 
+  {
+    "id": "retro-1-dama-blanco-gris-cafe",
+    "name": "NIKE RETRO 1",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/retro-1-dama-blanco-gris-cafe.jpeg"
+  },
+  {
+    "id": "retro-1-dama-plateado-blanco",
+    "name": "NIKE RETRO 1",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/retro-1-dama-plateado-blanco.jpeg"
+  },
+  {
+    "id": "nike-air-jordan-1-high-gol-damaf-plateado-blanco",
+    "name": "NIKE AIR JORDAN 1 HIGH GOLF",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-air-jordan-1-high-gol-damaf-plateado-blanco.jpeg"
+  },
+  {
+    "id": "nike-air-max-portal-blanco-rosado",
+    "name": "NIKE AIR MAX PORTAL",
+    "price": 100000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-air-max-portal-blanco-rosado.jpeg"
+  },
+  {
+    "id": "nike-jordan-1-mid-dama-blanco-negro",
+    "name": "NIKE JORDAN 1 MID",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-jordan-1-mid-dama-blanco-negro.jpeg"
+  },
+  {
+    "id": "nike-air-jordan-1-mid-dama-blanco-cafe",
+    "name": "NIKE JORDAN 1 MID",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-air-jordan-1-mid-dama-blanco-cafe.jpeg"
+  },
+  {
+    "id": "nike-jordan-1-mid-dama-blanco-azulpastel-plata",
+    "name": "NIKE JORDAN 1 MID",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-jordan-1-mid-dama-blanco-azulpastel-plata.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-blanco-plateado-negro",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-blanco-plateado-negro.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-blanco-plateado",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-blanco-plateado.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-blanco-rosado-azul",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-blanco-rosado-azul.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-blanco-plata-opaco",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-blanco-plata-opaco.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-plata-opaco-blanco",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-plata-opaco-blanco.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-cafe-blancopastel",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-cafe-blancopastel.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-plata-pastel-blanco",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-plata-pastel-blanco.jpeg"
+  },
+  {
+    "id": "nike-air-zoom-vomero-5-dama-cafe-blanco-opaco-pastel",
+    "name": "NIKE AIR ZOOM VOMERO 5",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-air-zoom-vomero-5-dama-cafe-blanco-opaco-pastel.jpeg"
   }
   
 ]
