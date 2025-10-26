@@ -5,119 +5,135 @@ export default function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [related, setRelated] = useState([]);
+  const [error, setError] = useState("");
 
   useEffect(() => {
     fetch("/data/products.json")
-      .then((res) => res.json())
+      .then((r) => r.json())
       .then((data) => {
         const found = data.find((p) => p.id === id);
         setProduct(found);
 
-        // 🔍 Agrupa variantes por modelo (últimas palabras, no la marca)
-if (found) {
-  // Divide el nombre por espacios
-  const parts = found.name.trim().split(" ");
-
-  // Toma las últimas 2 o 3 palabras, que suelen ser el modelo base (ej. "ZOOM FLY 6")
-  const modelBase = parts.slice(-3).join(" ").toUpperCase();
-
-  // Busca en la lista los productos que terminan igual (ignorando marca)
-  const variants = data.filter((p) => {
-    const target = p.name.trim().toUpperCase();
-    return (
-      p.id !== found.id &&
-      (target.endsWith(modelBase) || target.includes(modelBase))
-    );
-  });
-
-  setRelated(variants);
-}
-
+        // 🔍 Agrupa variantes por modelo (últimas palabras)
+        if (found) {
+          const parts = found.name.trim().split(" ");
+          const modelBase = parts.slice(-3).join(" ").toUpperCase();
+          const variants = data.filter((p) => {
+            const target = p.name.trim().toUpperCase();
+            return (
+              p.id !== found.id &&
+              (target.endsWith(modelBase) || target.includes(modelBase))
+            );
+          });
+          setRelated(variants);
+        }
+      })
+      .catch((e) => {
+        console.error(e);
+        setError("Error cargando el producto.");
       });
   }, [id]);
 
-  if (!product)
-    return (
-      <div className="p-10 text-center text-gray-500">Cargando producto...</div>
-    );
+  if (error) return <div className="p-8 text-red-500">{error}</div>;
+  if (!product) return <div className="p-8 text-gray-500">Cargando...</div>;
 
   return (
     <div
-      className="min-h-screen bg-[#f8fafc] text-gray-900"
+      className="min-h-screen"
       style={{
         "--brand": "#0d0d0d",
         "--accent": "#e11d48",
         "--accent-2": "#f43f5e",
+        background: "#f8fafc",
+        color: "#111",
       }}
     >
-      <header className="p-4 bg-white border-b sticky top-0 z-40 flex justify-between items-center">
-        <Link to="/" className="text-[var(--accent)] font-bold text-lg">
+      <div className="max-w-6xl mx-auto px-4 py-10">
+        <Link
+          to="/"
+          className="text-[var(--accent)] text-sm font-medium hover:underline"
+        >
           ← Volver
         </Link>
-        <h1 className="font-black text-xl">{product.name}</h1>
-      </header>
 
-      {/* Imagen principal */}
-      <div className="max-w-2xl mx-auto p-6">
-        <div className="relative rounded-2xl overflow-hidden bg-white border shadow">
-          <img
-            src={product.img}
-            alt={product.name}
-            className="w-full object-cover"
-          />
-        </div>
+        <div className="mt-6 grid md:grid-cols-2 gap-10 items-start">
+          {/* Imagen principal */}
+          <div>
+            <img
+              src={product.img}
+              alt={product.name}
+              className="w-full h-auto rounded-2xl border object-cover"
+            />
 
-        {/* Carrusel de variantes */}
-        {related.length > 0 && (
-          <div className="mt-4 flex gap-3 overflow-x-auto">
-            {related.map((r) => (
-              <Link key={r.id} to={`/producto/${r.id}`}>
-                <img
-                  src={r.img}
-                  alt={r.name}
-                  className="h-24 w-24 rounded-xl border hover:ring-2 ring-[var(--accent)] transition"
-                />
-              </Link>
-            ))}
-          </div>
-        )}
-
-        {/* Info */}
-        <div className="mt-6 bg-white rounded-2xl p-5 border shadow-sm">
-          <h2 className="text-2xl font-black mb-1">{product.name}</h2>
-          <p className="text-sm text-gray-500 mb-3">
-            {(product.category || []).join(" • ")}
-          </p>
-          <div className="text-3xl font-black text-[var(--accent)] mb-4">
-            {formatCOP(product.price)}
+            {/* Variantes / colores */}
+            {related.length > 0 && (
+              <div className="mt-3 flex gap-2 overflow-x-auto">
+                {related.map((v) => (
+                  <Link key={v.id} to={`/producto/${v.id}`}>
+                    <img
+                      src={v.img}
+                      alt={v.name}
+                      className="h-20 w-20 object-cover rounded-lg border hover:ring-2 hover:ring-[var(--accent)] transition"
+                    />
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
 
-          {product.tag && (
-            <span className="inline-block mb-3 px-2 py-1 text-xs font-semibold bg-[var(--accent-2)]/90 text-white rounded-md">
-              {product.tag}
-            </span>
-          )}
+          {/* Detalles del producto */}
+          <div className="rounded-2xl border bg-white p-6 shadow-sm">
+            <h1 className="text-xl font-black">{product.name}</h1>
+            <div className="text-sm text-neutral-500 mt-1">
+              {(product.category || []).join(" • ")}
+            </div>
+            <div className="text-2xl font-extrabold text-[var(--accent)] mt-2">
+              {formatCOP(product.price)}
+            </div>
 
-          <p className="text-sm text-gray-700 leading-relaxed mb-3">
-            Zapatillas {product.name}, calidad {product.tag}, ideales para{" "}
-            {(product.category || []).join(", ").toLowerCase()}.
-          </p>
+            {product.tag && (
+              <span className="inline-block mt-2 text-[11px] px-2 py-0.5 rounded-md bg-[var(--accent-2)]/90 text-white font-semibold">
+                {product.tag}
+              </span>
+            )}
 
-          <ul className="text-sm text-gray-600 list-disc list-inside space-y-1">
-            <li>Garantía de satisfacción</li>
-            <li>Pago contraentrega disponible</li>
-            <li>Envíos a toda Colombia 🇨🇴</li>
-          </ul>
+            <p className="mt-4 text-sm text-neutral-700 leading-relaxed">
+              Zapatillas {product.name}, calidad {product.tag || "1.1 Premium"},
+              ideales para {(product.category || []).join(", ").toLowerCase()}.
+            </p>
 
-          <button className="mt-5 w-full py-3 rounded-xl font-bold text-white bg-[var(--accent)] hover:opacity-90">
-            Pedir por WhatsApp
-          </button>
+            <ul className="mt-4 text-sm text-neutral-600 list-disc list-inside space-y-1">
+              <li>Garantía de satisfacción</li>
+              <li>Pago contraentrega disponible</li>
+              <li>Envíos a toda Colombia 🇨🇴</li>
+            </ul>
+
+            {/* Botón de WhatsApp funcional */}
+            <a
+              href={`https://wa.me/573180127867?text=${encodeURIComponent(
+                `👟 ¡Hola! Estoy interesado en las ${product.name} que vi en KIXLAB.
+
+💸 *Precio:* ${formatCOP(product.price)}
+📦 *Categorías:* ${(product.category || []).join(" • ")}
+
+🖼️ Mira la imagen: ${window.location.origin}${product.img}
+
+¿Siguen disponibles?`
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 block w-full text-center px-4 py-3 rounded-xl bg-[var(--accent)] text-white font-semibold hover:opacity-90 transition"
+            >
+              Pedir por WhatsApp
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
+/* util */
 function formatCOP(n) {
   try {
     return new Intl.NumberFormat("es-CO", {
