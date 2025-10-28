@@ -798,6 +798,47 @@
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
    "img": "/products/new-balance-9060-caballero-verde-blanco-gris.jpeg"
+  },
+  {
+    "id": "hugo-boss-kane-caballero-negro-rojo-blanco",
+    "name": "HUGO BOSS KANE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/hugo-boss-kane-caballero-negro-rojo-blanco.jpeg"
+  },
+  {
+    "id": "hugo-boss-kane-caballero-blanco-negro-azul",
+    "name": "HUGO BOSS KANE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/hugo-boss-kane-caballero-blanco-negro-azul.jpeg"
+  },
+  {
+    "id": "hugo-boss-kane-caballero-negro-gris",
+    "name": "HUGO BOSS KANE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/hugo-boss-kane-caballero-negro-gris.jpeg"
+  },
+  {
+    "id": "hugo-boss-kane-caballero-blanco-negro",
+    "name": "HUGO BOSS KANE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/hugo-boss-kane-caballero-blanco-negro.jpeg"
+  },
+  {
+    "id": "hugo-boss-kane-caballero-azul-blanco-rojo",
+    "name": "HUGO BOSS KANE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/hugo-boss-kane-caballero-azul-blanco-rojo.jpeg"
   }
+  
   
 ]
