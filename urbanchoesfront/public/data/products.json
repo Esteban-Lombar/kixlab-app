@@ -710,6 +710,94 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
    "img": "/products/nike-air-zoom-vomero-5-dama-cafe-blanco-opaco-pastel.jpeg"
+  },
+  {
+    "id": "nike-v2k-2.0-dame-blanco-gris-cafe",
+    "name": "NIKE V2K 2.0",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-v2k-2.0-dame-blanco-gris-cafe.jpeg"
+  },
+  {
+    "id": "nike-v2k-2.0-dama-plateado-gris-negro",
+    "name": "NIKE V2K 2.0",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-v2k-2.0-dama-plateado-gris-negro.jpeg"
+  },
+  {
+    "id": "nike-v2k-2.0-dama-plateado-blanco-cafe",
+    "name": "NIKE V2K 2.0",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-v2k-2.0-dama-plateado-blanco-cafe.jpeg"
+  },
+  {
+    "id": "nike-v2k-run-caballero-blanco-negro-gris",
+    "name": "NIKE V2K RUN",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", " Dama", "Urbanas", "Casual", "Deportivas"],
+   "img": "/products/nike-v2k-run-caballero-blanco-negro-gris.jpeg"
+  },
+  {
+    "id": "nike-v2k-run-dama- gris-negro-pastel",
+    "name": "NIKE V2K RUN",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", " Dama", "Urbanas", "Casual", "Deportivas"],
+   "img": "/products/nike-v2k-run-dama- gris-negro-pastel.jpeg"
+  },
+  {
+    "id": "nike-cortez-dama-azul-blanco",
+    "name": "NIKE CORTEZ",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-cortez-dama-azul-blanco.jpeg"
+  },
+  {
+    "id": "nike-cortez-dama-caballero-blanco-cafe",
+    "name": "NIKE CORTEZ",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-cortez-dama-caballero-blanco-cafe.jpeg"
+  },
+  {
+    "id": "nike-v2k-run-dama-rosa-plata-blanco-pastel",
+    "name": "NIKE V2K RUN",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Deportivas"],
+   "img": "/products/nike-v2k-run-dama-rosa-plata-blanco-pastel.jpeg"
+  },
+  {
+    "id": "new-balance-9060-dama-pastel-blanco-amarillo-verdezul",
+    "name": "NEW BALANCE 9060",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas"],
+   "img": "/products/new-balance-9060-dama-pastel-blanco-amarillo-verdezul.jpeg"
+  },
+  {
+    "id": "nike-p6000-dama-caballero-plateado-blanco-negro",
+    "name": "NIKE P6000",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas"],
+   "img": "/products/nike-p6000-dama-caballero-plateado-blanco-negro.jpeg"
+  },
+  {
+    "id": "new-balance-9060-caballero-verde-blanco-gris",
+    "name": "NEW BALANCE 9060",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas"],
+   "img": "/products/new-balance-9060-caballero-verde-blanco-gris.jpeg"
   }
   
 ]
