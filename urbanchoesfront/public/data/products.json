@@ -154,7 +154,7 @@
   {
     "id": "adidassamba-blanco-cafe-dama",
     "name": "ADIDAS SAMBA",
-    "price": 130000,
+    "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Casual", "Dama", "Urbanas"],
     "img": "/products/adidassamba-blanco-cafe-dama.jpeg"
@@ -481,7 +481,7 @@
   },
   {
     "id": "new-balance-530-negro-blanco-gris",
-    "name": "NEW BALANCE 530",
+    "name": "NEW BALANCE 530 ENCAP",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", " Dama", "Deportivas", "Urbanas"],
@@ -838,7 +838,64 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
    "img": "/products/hugo-boss-kane-caballero-azul-blanco-rojo.jpeg"
+  },
+  {
+    "id": "puma-park-dama-cafe-azul-blanco",
+    "name": "PUMA PARK",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-park-dama-cafe-azul-blanco.jpeg"
+  },
+  {
+    "id": "lecoq-omega-caballero-verde-blanco-negro",
+    "name": "LECOQ OMEGA",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/lecoq-omega-caballero-verde-blanco-negro.jpeg"
+  },
+  {
+    "id": "lecoq-omega-caballero-azul-rojo-blanco",
+    "name": "LECOQ OMEGA",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/lecoq-omega-caballero-azul-rojo-blanco.jpeg"
+  },
+  {
+    "id": "lecoq-omega-caballero-gris-blanco-azul-rojo",
+    "name": "LECOQ OMEGA",
+    "price": 140000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/lecoq-omega-caballero-gris-blanco-azul-rojo.jpeg"
+  },
+  {
+    "id": "adidas-samba-dama-caballero-negro-pastel-cafe",
+    "name": "ADIDAS SAMBA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/adidas-samba-dama-caballero-negro-pastel-cafe.jpeg"
+  },
+  {
+    "id": "adidas-samba-dama-blanco-grisazul",
+    "name": "ADIDAS SAMBA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/adidas-samba-dama-blanco-grisazul.jpeg"
+  },
+  {
+    "id": "adidas-samba-blanco-plata-dorado",
+    "name": "ADIDAS SAMBA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/adidas-samba-blanco-plata-dorado.jpeg"
   }
+  
   
   
 ]
