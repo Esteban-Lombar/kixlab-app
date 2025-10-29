@@ -894,6 +894,46 @@
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
    "img": "/products/adidas-samba-blanco-plata-dorado.jpeg"
+  },
+  {
+    "id": "adidas-samba-dama-cafe-cafe",
+    "name": "ADIDAS SAMBA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/adidas-samba-dama-cafe-cafe.jpeg"
+  },
+  {
+    "id": "new-balance-530-dama-blanco-negro-gris",
+    "name": "NEW BALANCE 530",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/new-balance-530-dama-blanco-negro-gris.jpeg"
+  },
+  {
+    "id": "off-white-out-office-caballero-dama",
+    "name": "OFF WHITE OUT OFFICE",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/off-white-out-office-caballero-dama.jpeg"
+  },
+  {
+    "id": "adidas-samba-dama-morado-rosado-cafe",
+    "name": "ADIDAS SAMBA",
+    "price": 120000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/adidas-samba-dama-morado-rosado-cafe.jpeg"
+  },
+  {
+    "id": "adidas-samoa-caballero-blanco-negro-cafe",
+    "name": "ADIDAS SAMOA",
+    "price": 130000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/adidas-samoa-caballero-blanco-negro-cafe.jpeg"
   }
   
   
