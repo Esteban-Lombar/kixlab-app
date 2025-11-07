@@ -26,7 +26,7 @@
   {
     "id": "puma-fenty-negro-blanco",
     "name": "PUMA FENTY",
-    "price": 140000,
+    "price": 150000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Dama"],
     "img": "/products/pumafenty-negro-blanco.jpeg"
@@ -934,6 +934,46 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
    "img": "/products/adidas-samoa-caballero-blanco-negro-cafe.jpeg"
+  },
+  {
+    "id": "puma-suede-cafe-oscuro-claro-caramelo",
+    "name": "PUMA SUEDE",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-suede-cafe-oscuro-claro-caramelo.jpeg"
+  },
+  {
+    "id": "puma-suede-cafe-negro",
+    "name": "PUMA SUEDE",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-suede-cafe-negro.jpeg"
+  },
+  {
+    "id": "puma-fenty-verde-blanco",
+    "name": "PUMA FENTY",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-fenty-verde-blanco.jpeg"
+  },
+  {
+    "id": "reebok-club-c-bulc-marron-negro-blanco",
+    "name": "REEBOK CLUB C BULC",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/reebok-club-c-bulc-marron-negro-blanco.jpeg"
+  },
+  {
+    "id": "puma-bmw-dama-blanco-gris-rojo-azul",
+    "name": "PUMA BMW",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-bmw-dama-blanco-gris-rojo-azul.jpeg"
   }
   
   
