@@ -1,7 +1,7 @@
 [
   {
     "id": "nike-sunder-blancas-rosado",
-    "name": " SUNNDER",
+    "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas","Running", "Caballero"],
@@ -9,7 +9,7 @@
   },
   {
     "id": "nike-sunder-amarillo-blanco",
-    "name": "SUNNDER",
+    "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -17,7 +17,7 @@
   },
   {
     "id": "nike-sunder-blanco-rojo",
-    "name": "SUNNDER",
+    "name": "NIKE SUNNDER",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -25,7 +25,7 @@
   },
   {
     "id": "puma-fenty-negro-blanco",
-    "name": "FENTY",
+    "name": "PUMA FENTY",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Dama"],
@@ -33,7 +33,7 @@
   },
   {
     "id": "jordan-retro-3-blanco",
-    "name": "RETRO 3",
+    "name": "JORDAN RETRO 3",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Dama"],
@@ -41,7 +41,7 @@
   },
   {
     "id": "nikeshock-negro-rojo",
-    "name": "SHOCK",
+    "name": "NIKE SHOCK",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -49,7 +49,7 @@
   },
   {
     "id": "nikeshock-blanco-plateado",
-    "name": "SHOCK",
+    "name": "NIKE SHOCK",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -57,7 +57,7 @@
   },
   {
     "id": "nikeshock-negro-plateado-rojo",
-    "name": "SHOCK",
+    "name": "NIKE SHOCK",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -65,7 +65,7 @@
   },
   {
     "id": "nikeshock-negro",
-    "name": "SHOCK",
+    "name": "NIKE SHOCK",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -73,7 +73,7 @@
   },
   {
     "id": "nikeshock-blanco-plateado-rojo",
-    "name": "SHOCK",
+    "name": "NIKE SHOCK",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -81,7 +81,7 @@
   },
   {
     "id": "alexandermcqueen-blanco-negro",
-    "name": "MCQUEEN",
+    "name": "ALEXANDER MCQUEEN",
     "price": 180000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero", "Dama"],
@@ -89,7 +89,7 @@
   },
   {
     "id": "alexandermcqueen-negro-blanco",
-    "name": "MCQUEEN",
+    "name": "ALEXANDER MCQUEEN",
     "price": 180000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero", "Dama"],
@@ -97,7 +97,7 @@
   },
   {
     "id": "adidasbounce-blanco-azul",
-    "name": "BOUNCE",
+    "name": "ADIDAS BOUNCE",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama"],
@@ -105,7 +105,7 @@
   },
   {
     "id": "adidasbounce-blanco-rosa-azul-dama",
-    "name": "BOUNCE",
+    "name": "ADIDAS BOUNCE",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama"],
@@ -113,7 +113,7 @@
   },
   {
     "id": "nikezoomx-negro-blanco-dama-caballero",
-    "name": "ZOOM X",
+    "name": "NIKE ZOOM X",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama", "Caballero"],
@@ -121,7 +121,7 @@
   },
   {
     "id": "adidasbounce-negro-blanco-caballero",
-    "name": "BOUNCE",
+    "name": "ADIDAS BOUNCE",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -129,7 +129,7 @@
   },
   {
     "id": "adidassamba-blanco-negro-caballero",
-    "name": "X AMBUSH AIR ADJUST FORCE SP",
+    "name": "ADIDAS X AMBUSH AIR ADJUST FORCE SP",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Caballero"],
@@ -145,7 +145,7 @@
   },
   {
     "id": "adidassuperstar-blancas-multicolor-dama",
-    "name": "SUPER STAR",
+    "name": "ADIDAS SUPER STAR",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Casual", "Dama", "Urbanas"],
@@ -153,7 +153,7 @@
   },
   {
     "id": "adidassamba-blanco-cafe-dama",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Casual", "Dama", "Urbanas"],
@@ -161,7 +161,7 @@
   },
   {
     "id": "adidaslego-negra-blanco-rojo",
-    "name": "LEGO",
+    "name": "ADIDAS LEGO",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Casual", "Dama", "Caballero", "Urbanas"],
@@ -169,7 +169,7 @@
   },
   {
     "id": "nikezoomx-blanco-amarillo",
-    "name": "ZOOM X ",
+    "name": "NIKE ZOOM X ",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama", "Caballero"],
@@ -177,7 +177,7 @@
   },
   {
     "id": "adidasgalaxy-pastel-multicolor",
-    "name": "GALAXY ",
+    "name": "ADIDAS GALAXY ",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama"],
@@ -185,7 +185,7 @@
   },
   {
     "id": "adidasgalaxy-blanco-rosado",
-    "name": "GALAXY ",
+    "name": "ADIDAS GALAXY ",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Dama"],
@@ -193,7 +193,7 @@
   },
   {
     "id": "nikeblazer-blanco-rosado",
-    "name": "BLAZER",
+    "name": "NIKE BLAZER",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Dama"],
@@ -201,7 +201,7 @@
   },
   {
     "id": "adidaslego-negro-gris-caballero",
-    "name": "LEGO",
+    "name": "ADIDAS LEGO",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero"],
@@ -209,7 +209,7 @@
   },
   {
     "id": "adidaslego-negro-blanco",
-    "name": "LEGO",
+    "name": "ADIDAS LEGO",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero"],
@@ -217,7 +217,7 @@
   },
   {
     "id": "adidaslego-negro",
-    "name": "LEGO",
+    "name": "ADIDAS LEGO",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero"],
@@ -225,7 +225,7 @@
   },
   {
     "id": "nikeaf1-blanco-rojo-negro",
-    "name": "AF1",
+    "name": "NIKE AF1",
     "price": 145000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual", "Caballero"],
@@ -233,7 +233,7 @@
   },
   {
     "id": "nikecomant-azules",
-    "name": "COMANT",
+    "name": "NIKE COMANT",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
@@ -241,7 +241,7 @@
   },
   {
     "id": "nikeairmax90-negro",
-    "name": "AIR MAX 90",
+    "name": "NIKE AIR MAX 90",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero", "Casual"],
@@ -249,7 +249,7 @@
   },
   {
     "id": "niketndrift-blancas-torna",
-    "name": "TN DRIFT",
+    "name": "NIKE TN DRIFT",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero"],
@@ -257,7 +257,7 @@
   },
   {
     "id": "nikedunk-blanco-azul",
-    "name": "DUNK",
+    "name": "NIKE DUNK",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual","Caballero"],
@@ -265,7 +265,7 @@
   },
   {
     "id": "adidasalphabounce-negras-azul-blanco",
-    "name": "ALPHABOUNCE",
+    "name": "ADIDAS ALPHABOUNCE",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Running", "Deportivas", "Caballero", "Dama"],
@@ -273,7 +273,7 @@
   },
   {
     "id": "pumacalifornia-negro-blanco",
-    "name": "CALIFORNIA",
+    "name": "PUMA CALIFORNIA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Casual","Caballero", "Dama"],
@@ -281,7 +281,7 @@
   },
   {
     "id": "nikeairmax90-blanco-rojo-negro",
-    "name": "AIR MAX 90",
+    "name": "NIKE AIR MAX 90",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Caballero"],
@@ -289,7 +289,7 @@
   },
   {
     "id": "balenciagasss-blanco-rojo",
-    "name": " SSS",
+    "name": "BALENCIAGA SSS",
     "price": 170000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Dama"],
@@ -297,7 +297,7 @@
   },
   {
     "id": "niketrail-blanco-negro",
-    "name": "TRAIL",
+    "name": "NIKE TRAIL",
     "price": 265000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
@@ -305,7 +305,7 @@
   },
   {
     "id": "nikevomero-blanco-plata-rosa",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas","Dama"],
@@ -313,7 +313,7 @@
   },
   {
     "id": "nikeiniator-blanco-cafe",
-    "name": "INIATOR",
+    "name": "NIKE INIATOR",
     "price": 263000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas","Dama"],
@@ -321,7 +321,7 @@
   },
   {
     "id": "adidassupermagma-negro-blanco",
-    "name": "SUPERMAGMA",
+    "name": "ADIDAS SUPERMAGMA",
     "price": 230000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas","Dama"],
@@ -329,7 +329,7 @@
   },
   {
     "id": "niketrail-naranja-azul-negro",
-    "name": "TRAIL",
+    "name": "NIKE TRAIL",
     "price": 265000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Running", "Caballero"," Dama"],
@@ -337,7 +337,7 @@
   },
   {
     "id": "adidassupermagma-azul-blanco",
-    "name": "SUPERMAGMA",
+    "name": "ADIDAS SUPERMAGMA",
     "price": 230000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas"," Dama"],
@@ -345,7 +345,7 @@
   },
   {
     "id": "niketrail-negro-blanco",
-    "name": "TRAIL",
+    "name": "NIKE TRAIL",
     "price": 265000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Running", "Caballero", "Dama"],
@@ -353,7 +353,7 @@
   },
   {
     "id": "nikevomero-blanco-pastel",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
@@ -369,7 +369,7 @@
   },
   {
     "id": "niketrail-rosa-azul-rojo",
-    "name": "TRAIL",
+    "name": "NIKE TRAIL",
     "price": 265000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Running", "Caballero", "Dama"],
@@ -377,7 +377,7 @@
   },
   {
     "id": "nikevomero-cafe-blanco",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
@@ -385,7 +385,7 @@
   },
   {
     "id": "newbalance1906r-blanco-plata",
-    "name": "1906R",
+    "name": "NEWBALANCE 1906R",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
@@ -393,7 +393,7 @@
   },
   {
     "id": "newbalance1906r-blanco-negro",
-    "name": "1906R",
+    "name": "NEWBALANCE 1906R",
     "price": 210000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Caballero", "Dama"],
@@ -401,7 +401,7 @@
   },
   {
     "id": "nikevomero-cafe-naranja",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
@@ -409,7 +409,7 @@
   },
   {
     "id": "niketrail-rosa-blanco",
-    "name": "TRAIL",
+    "name": "NIKE TRAIL",
     "price": 265000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Running", "Dama"],
@@ -417,7 +417,7 @@
   },
   {
     "id": "adidassupermagma-negro-blanco-naranja",
-    "name": "SUPERMAGMA",
+    "name": "ADIDAS SUPERMAGMA",
     "price": 230000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas"," Dama"],
@@ -425,7 +425,7 @@
   },
   {
     "id": "nikevomero-gris-plata-azul",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
@@ -433,7 +433,7 @@
   },
   {
     "id": "adidassupermagma-negro-blanco-verde",
-    "name": "SUPERMAGMA",
+    "name": "ADIDAS SUPERMAGMA",
     "price": 230000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas"," Dama"],
@@ -441,7 +441,7 @@
   },
   {
     "id": "nikevomero-dorado-blanco",
-    "name": "VOMERO",
+    "name": "NIKE VOMERO",
     "price": 217000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Urbanas", "Deportivas", "Dama"],
@@ -473,7 +473,7 @@
   },
   {
     "id": "nike-zoom-mercurial-vapor-15-elite-blanco-rojo",
-    "name": "ZOMM MERCURIAL VAPOR 15 ELITE",
+    "name": "NIKE ZOMM MERCURIAL VAPOR 15 ELITE",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Deportivas"],
@@ -481,7 +481,7 @@
   },
   {
     "id": "new-balance-530-negro-blanco-gris",
-    "name": " 530 ENCAP",
+    "name": "NEWBALANCE 530 ENCAP",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", " Dama", "Deportivas", "Urbanas"],
@@ -489,7 +489,7 @@
   },
   {
     "id": "new-balance-999-blanco-negro-gris",
-    "name": " 999",
+    "name": "NEWBALANCE 999",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Deportivas", "Urbanas"],
@@ -497,7 +497,7 @@
   },
   {
     "id": "new-balance-999-blanco-azuloscuro-rojo",
-    "name": " 999",
+    "name": "NEWBALANCE 999",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Deportivas", "Urbanas"],
@@ -505,7 +505,7 @@
   },
   {
     "id": "puma-velocity-nitro-3-verde-negro-blanco",
-    "name": "VELOCITY NITRO 3",
+    "name": "PUMA VELOCITY NITRO 3",
     "price": 100000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero"],
@@ -513,15 +513,15 @@
   },
   {
     "id": "nike-zoom-fly-6-blanco-verde-negro",
-    "name": "ZOOM FLY 6",
-    "price": 110000,
+    "name": "NIKE ZOOM FLY 6",
+    "price": 110000, 
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero", "Dama"],
    "img": "/products/nike-zoom-fly-6-blanco-verde-negro.jpeg"
   },
   {
     "id": "nike-zoom-fly-6-negro-blanco",
-    "name": "ZOOM FLY 6",
+    "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero", " Dama"],
@@ -529,7 +529,7 @@
   },
   {
     "id": "nike-zoom-fly-6-blanco-rosa-negro",
-    "name": "ZOOM FLY 6",
+    "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero", " Dama"],
@@ -537,7 +537,7 @@
   },
   {
     "id": "nike-zoom-fly-6-blanco-morado-negro",
-    "name": "ZOOM FLY 6",
+    "name": "NIKE ZOOM FLY 6",
     "price": 110000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Deportivas", "Running", "Caballero", "Dama"],
@@ -569,7 +569,7 @@
   },
   {
     "id": "nike-air-max-portal-caballero-blanco-negro",
-    "name": "AIR MAX PORTAL",
+    "name": "NIKE AIR MAX PORTAL",
     "price": 100000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Deportivas"],
@@ -577,7 +577,7 @@
   },
   {
     "id": "nike-air-max-portal-caballero-blanco-negro-dorado",
-    "name": "AIR MAX PORTAL",
+    "name": "NIKE AIR MAX PORTAL",
     "price": 100000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Deportivas"],
@@ -585,7 +585,7 @@
   },
   {
     "id": "disel-s-serendipity-lc-negrocamulado-blanco",
-    "name": " S-SERENDIPITY LC",
+    "name": "DISEL S-SERENDIPITY LC",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -609,7 +609,7 @@
   },
   {
     "id": "nike-air-jordan-1-high-gol-damaf-plateado-blanco",
-    "name": "AIR JORDAN 1 HIGH GOLF",
+    "name": "NIKE AIR JORDAN 1 HIGH GOLF",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -617,7 +617,7 @@
   },
   {
     "id": "nike-air-max-portal-blanco-rosado",
-    "name": "AIR MAX PORTAL",
+    "name": "NIKE AIR MAX PORTAL",
     "price": 100000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -625,7 +625,7 @@
   },
   {
     "id": "nike-jordan-1-mid-dama-blanco-negro",
-    "name": "1 MID",
+    "name": "NIKE JORDAN  1 MID",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -633,7 +633,7 @@
   },
   {
     "id": "nike-air-jordan-1-mid-dama-blanco-cafe",
-    "name": "1 MID",
+    "name": "NIKE JORDAN 1 MID",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -641,7 +641,7 @@
   },
   {
     "id": "nike-jordan-1-mid-dama-blanco-azulpastel-plata",
-    "name": "1 MID",
+    "name": "NIKE JORDAN 1 MID",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -649,7 +649,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-blanco-plateado-negro",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -657,7 +657,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-blanco-plateado",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -665,7 +665,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-blanco-rosado-azul",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -673,7 +673,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-blanco-plata-opaco",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -681,7 +681,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-plata-opaco-blanco",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -689,7 +689,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-cafe-blancopastel",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -697,7 +697,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-plata-pastel-blanco",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -705,7 +705,7 @@
   },
   {
     "id": "nike-air-zoom-vomero-5-dama-cafe-blanco-opaco-pastel",
-    "name": "AIR ZOOM VOMERO 5",
+    "name": "NIKE AIR ZOOM VOMERO 5",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Deportivas"],
@@ -713,7 +713,7 @@
   },
   {
     "id": "nike-v2k-2.0-dame-blanco-gris-cafe",
-    "name": "V2K 2.0",
+    "name": "NIKE V2K 2.0",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -721,7 +721,7 @@
   },
   {
     "id": "nike-v2k-2.0-dama-plateado-gris-negro",
-    "name": "V2K 2.0",
+    "name": "NIKE V2K 2.0",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -729,7 +729,7 @@
   },
   {
     "id": "nike-v2k-2.0-dama-plateado-blanco-cafe",
-    "name": "V2K 2.0",
+    "name": "NIKE V2K 2.0",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
@@ -737,7 +737,7 @@
   },
   {
     "id": "nike-v2k-run-caballero-blanco-negro-gris",
-    "name": "V2K RUN",
+    "name": "NIKE V2K RUN",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", " Dama", "Urbanas", "Casual", "Deportivas"],
@@ -745,7 +745,7 @@
   },
   {
     "id": "nike-v2k-run-dama- gris-negro-pastel",
-    "name": "V2K RUN",
+    "name": "NIKE 2K RUN",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", " Dama", "Urbanas", "Casual", "Deportivas"],
@@ -753,7 +753,7 @@
   },
   {
     "id": "nike-cortez-dama-azul-blanco",
-    "name": "CORTEZ",
+    "name": "NIKE CORTEZ",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -761,7 +761,7 @@
   },
   {
     "id": "nike-cortez-dama-caballero-blanco-cafe",
-    "name": "CORTEZ",
+    "name": "NIKE CORTEZ",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas", "Casual"],
@@ -769,7 +769,7 @@
   },
   {
     "id": "nike-v2k-run-dama-rosa-plata-blanco-pastel",
-    "name": "V2K RUN",
+    "name": "NIKE V2K RUN",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Deportivas"],
@@ -777,7 +777,7 @@
   },
   {
     "id": "new-balance-9060-dama-pastel-blanco-amarillo-verdezul",
-    "name": "9060",
+    "name": "NEWBALANCE 9060",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
@@ -785,7 +785,7 @@
   },
   {
     "id": "nike-p6000-dama-caballero-plateado-blanco-negro",
-    "name": "P6000",
+    "name": "NIKE P6000",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
@@ -793,7 +793,7 @@
   },
   {
     "id": "new-balance-9060-caballero-verde-blanco-gris",
-    "name": "9060",
+    "name": "NEWBALANCE 9060",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
@@ -801,7 +801,7 @@
   },
   {
     "id": "hugo-boss-kane-caballero-negro-rojo-blanco",
-    "name": "KANE",
+    "name": "HUGOBOSS KANE",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -809,7 +809,7 @@
   },
   {
     "id": "hugo-boss-kane-caballero-blanco-negro-azul",
-    "name": "KANE",
+    "name": "HUGOBOSS KANE",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -817,7 +817,7 @@
   },
   {
     "id": "hugo-boss-kane-caballero-negro-gris",
-    "name": "KANE",
+    "name": "HUGOBOSS KANE",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -825,7 +825,7 @@
   },
   {
     "id": "hugo-boss-kane-caballero-blanco-negro",
-    "name": "KANE",
+    "name": "HUGOBOSS KANE",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -833,7 +833,7 @@
   },
   {
     "id": "hugo-boss-kane-caballero-azul-blanco-rojo",
-    "name": "KANE",
+    "name": "HUGOBOSS KANE",
     "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -841,7 +841,7 @@
   },
   {
     "id": "puma-park-dama-cafe-azul-blanco",
-    "name": "PARK",
+    "name": "PUMA PARK",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -857,7 +857,7 @@
   },
   {
     "id": "lecoq-omega-caballero-azul-rojo-blanco",
-    "name": " OMEGA",
+    "name": "LECOQ OMEGA",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -865,7 +865,7 @@
   },
   {
     "id": "lecoq-omega-caballero-gris-blanco-azul-rojo",
-    "name": " OMEGA",
+    "name": "LECOQ OMEGA",
     "price": 140000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
@@ -873,7 +873,7 @@
   },
   {
     "id": "adidas-samba-dama-caballero-negro-pastel-cafe",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -881,7 +881,7 @@
   },
   {
     "id": "adidas-samba-dama-blanco-grisazul",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -889,7 +889,7 @@
   },
   {
     "id": "adidas-samba-blanco-plata-dorado",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -897,7 +897,7 @@
   },
   {
     "id": "adidas-samba-dama-cafe-cafe",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -905,7 +905,7 @@
   },
   {
     "id": "new-balance-530-dama-blanco-negro-gris",
-    "name": " 530",
+    "name": "NEWBALANCE 530",
     "price": 150000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -921,7 +921,7 @@
   },
   {
     "id": "adidas-samba-dama-morado-rosado-cafe",
-    "name": "SAMBA",
+    "name": "ADIDAS SAMBA",
     "price": 120000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
@@ -929,7 +929,7 @@
   },
   {
     "id": "adidas-samoa-caballero-blanco-negro-cafe",
-    "name": "SAMOA",
+    "name": "ADIDAS SAMOA",
     "price": 130000,
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
