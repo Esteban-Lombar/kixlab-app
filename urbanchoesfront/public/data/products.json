@@ -1022,6 +1022,86 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Dama", "Urbanas", "Casual"],
    "img": "/products/puma-180-dama-caballero-blanco-gris-plateado.jpeg"
+  },
+  {
+    "id": "newbalance-9060-pastel-grisoscuro-blanco",
+    "name": "NEWBALANCE 9060",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Dama", "Urbanas", "Casual"],
+   "img": "/products/newbalance-9060-pastel-grisoscuro-blanco.jpeg"
+  },
+  {
+    "id": "nike-tn-azul-blanco-negro",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-azul-blanco-negro.jpeg"
+  },
+  {
+    "id": "nike-tn-blanco-negro-azulclaro",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-blanco-negro-azulclaro.jpeg"
+  },
+  {
+    "id": "nike-tn-rosado-blanco-gris",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-rosado-blanco-gris.jpeg"
+  },
+  {
+    "id": "nike-tn-fullrojo",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-fullrojo.jpeg"
+  },
+  {
+    "id": "nike-tn-verdelima-azulclaro-plateado-blanco",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-verdelima-azulclaro-plateado-blanco.jpeg"
+  },
+  {
+    "id": "nike-tn-gris-negro-azulcielo",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-gris-negro-azulcielo.jpeg"
+  },
+  {
+    "id": "nike-tn-grisblanco-caki-amarillo",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-grisblanco-caki-amarillo.jpeg"
+  },
+  {
+    "id": "nike-tn-verdeazul-verdelimon-blanco-azul",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-verdeazul-verdelimon-blanco-azul.jpeg"
+  },
+  {
+    "id": "nike-tn-blanco-pastel-rosado",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": [" Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-blanco-pastel-rosado.jpeg"
   }
   
   
