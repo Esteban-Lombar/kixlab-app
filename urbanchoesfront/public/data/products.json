@@ -778,7 +778,7 @@
   {
     "id": "new-balance-9060-dama-pastel-blanco-amarillo-verdezul",
     "name": "NEWBALANCE 9060",
-    "price": 140000,
+    "price": 170000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
    "img": "/products/new-balance-9060-dama-pastel-blanco-amarillo-verdezul.jpeg"
@@ -794,7 +794,7 @@
   {
     "id": "new-balance-9060-caballero-verde-blanco-gris",
     "name": "NEWBALANCE 9060",
-    "price": 140000,
+    "price": 170000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas"],
    "img": "/products/new-balance-9060-caballero-verde-blanco-gris.jpeg"
@@ -842,7 +842,7 @@
   {
     "id": "puma-park-dama-cafe-azul-blanco",
     "name": "PUMA PARK",
-    "price": 140000,
+    "price": 150000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Urbanas", "Casual"],
    "img": "/products/puma-park-dama-cafe-azul-blanco.jpeg"
@@ -914,7 +914,7 @@
   {
     "id": "off-white-out-office-caballero-dama",
     "name": "OFF WHITE OUT OFFICE",
-    "price": 150000,
+    "price": 160000,
     "tag": "Calidad 1.1 Premium",
     "category": [" Dama", "Caballero", "Urbanas", "Casual"],
    "img": "/products/off-white-out-office-caballero-dama.jpeg"
@@ -974,6 +974,54 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Dama", "Urbanas", "Casual"],
    "img": "/products/puma-bmw-dama-blanco-gris-rojo-azul.jpeg"
+  },
+  {
+    "id": "newbalance-9060-pastel-gris-blanco",
+    "name": "NEWBALANCE 9060",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/newbalance-9060-pastel-gris-blanco.jpeg"
+  },
+  {
+    "id": "lecoq-sportif-verde-cafe-pastel-blanco-negro",
+    "name": "LECOQ SPORTIF",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/lecoq-sportif-verde-cafe-pastel-blanco-negro.jpeg"
+  },
+  {
+    "id": "nike-arm-blanco-azul-negro-amarillo",
+    "name": "NIKE ARM",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Urbanas", "Casual"],
+   "img": "/products/nike-arm-blanco-azul-negro-amarillo.jpeg"
+  },
+  {
+    "id": "offwhite-out-of-office-ooo-low-tops-negro-blanco-cafe",
+    "name": "OFF WHITE OUT OFFICE",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama",  "Urbanas", "Casual"],
+   "img": "/products/offwhite-out-of-office-ooo-low-tops-negro-blanco-cafe.jpeg"
+  },
+  {
+    "id": "puma-park-blanco-cafe-verde",
+    "name": "PUMA PARK",
+    "price": 150000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero",  "Urbanas", "Casual"],
+   "img": "/products/puma-park-blanco-cafe-verde.jpeg"
+  },
+  {
+    "id": "puma-180-dama-caballero-blanco-gris-plateado",
+    "name": "PUMA 180",
+    "price": 160000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Caballero", "Dama", "Urbanas", "Casual"],
+   "img": "/products/puma-180-dama-caballero-blanco-gris-plateado.jpeg"
   }
   
   
