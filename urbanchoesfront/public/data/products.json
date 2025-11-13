@@ -1150,6 +1150,62 @@
     "tag": "Calidad 1.1 Premium",
     "category": ["Caballero", "Urbanas", "Casual"],
    "img": "/products/nike-tn-blanco-azuloscuro-azulclaro.jpeg"
+  },
+  {
+    "id": "nike-tn-negro-morado",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-negro-morado.jpeg"
+  },
+  {
+    "id": "nike-mectom-rosado-blanco-negro",
+    "name": "NIKE MECTOM",
+    "price": 180000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual", "Deportivas"],
+   "img": "/products/nike-mectom-rosado-blanco-negro.jpeg"
+  },
+  {
+    "id": "nike-mectom-negro-blanco",
+    "name": "NIKE MECTOM",
+    "price": 180000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Caballero", "Urbanas", "Casual", "Deportivas"],
+   "img": "/products/nike-mectom-negro-blanco.jpeg"
+  },
+  {
+    "id": "nike-tn-blanco-rosadito",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-blanco-rosadito.jpeg"
+  },
+  {
+    "id": "nike-tn-dama-blanco-rojo-rosado-azul",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-dama-blanco-rojo-rosado-azul.jpeg"
+  },
+  {
+    "id": "nike-tn-negro-rojo-rayos",
+    "name": "NIKE TN",
+    "price": 170000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual"],
+   "img": "/products/nike-tn-negro-rojo-rayos.jpeg"
+  },
+  {
+    "id": "nike-mactom-blanco-rosado",
+    "name": "NIKE MECTOM",
+    "price": 180000,
+    "tag": "Calidad 1.1 Premium",
+    "category": ["Dama", "Urbanas", "Casual", "Deportivas"],
+   "img": "/products/nike-mactom-blanco-rosado.jpeg"
   }
   
   
